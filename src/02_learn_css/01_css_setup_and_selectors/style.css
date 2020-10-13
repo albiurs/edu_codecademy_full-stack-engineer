@@ -1,0 +1,48 @@
+p {
+    font-family: Arial;
+}
+
+h1 {
+    color: maroon;
+}
+
+/* general h5 definition */
+h5 {
+    color: rebeccapurple;
+}
+
+.title {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.publish-time {
+    color: gray;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* chaining selectors */
+h2.destination {
+    font-family: cursive;
+}
+
+/* nested elements (h5 inside .description
+  & also specific definition of h5 element above */
+.description h5 {
+    color: teal;
+}
+
+/* multiple selectors */
+h5, p {
+    font-family: Georgia;
+}

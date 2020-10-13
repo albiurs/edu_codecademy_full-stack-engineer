@@ -1,0 +1,90 @@
+<!--Video and Embed-->
+
+<!--Video:-->
+<!--As demonstrated in the previous exercise, media content can be a useful addition to a website. By using a
+<video> element, we can add videos to our website. The <video> element makes it clear that a developer is
+attempting to display a video to the user.-->
+
+<!--Some attributes that can alter a video playback include:-->
+
+<!--    controls: When added in, a play/pause button will be added onto the video along with volume control and a
+fullscreen option.-->
+<!--    autoplay: The attribute which results in a video automatically playing as soon as the page is loaded.-->
+<!--    loop: This attribute results in the video continuously playing on repeat.-->
+
+<!--Below is an example of <video> being used with the controls attribute:-->
+
+<!--<video src="coding.mp4" controls>Video not supported</video>-->
+
+<!--In the code above, a video file named coding.mp4 is being played. The “Video not supported” will only show up if
+the browser is unable to display the video.-->
+
+<!--embed (deprecated):-->
+<!--Another tag that can be used to incorporate media content into a page is the <embed> tag, which can embed any media
+content including videos, audio files, and gifs from an external source. This means that websites that have an embed
+button have some form of media content that can be added to other websites. The <embed> tag is a self-closing tag,
+unlike the <video> element. Note that <embed> is a deprecated tag and other alternatives, such as <video>, <audio> and
+<img>, should be used in its place, but is being taught for legacy purposes.-->
+
+<!--Below we’ll take a look at <embed> being used in action.-->
+
+<!--<embed src="download.gif"/>-->
+
+<!--In the example above, <embed> is being used to add in a gif from a local file known as download.gif. Embed can be
+used to add local files as well as media content straight from some other websites.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Navigational Links</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <article>
+            <h2>Facts About Dogs</h2>
+            <p>
+                Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+            </p>
+        </article>
+        <aside>
+            <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+            </p>
+        </aside>
+    </section>
+
+    <figure>
+        <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"/>
+        <figcaption>A cute dog.</figcaption>
+    </figure>
+
+    <audio controls>
+        <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Create <video> and <embed> tag here -->
+    <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>Unable to load video!</video>
+
+    <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif" type="image/gif">
+
+
+</main>
+
+<footer>
+    <p>Contact me at +1 234 567 8910 </p>
+</footer>
+
+</body>
+</html>

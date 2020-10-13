@@ -20,21 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/01_requiring_an_input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/02_set_minimum_and_maximum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/03_checking_text_and_pw_length.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/04_matching_a_pattern.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/05_review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/check.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/numCheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/project_form-a-story/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/project_form-a-story/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/project_form-a-story/original.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/project_form-a-story/story.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/project_form-a-story/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/06_form_validation/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/01_header_and_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/02_main_and_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/03_article_and_section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/04_aside_element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/05_figure_and_figcaption.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/06_audio_and_attributes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/07_video_and_embed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/08_review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/project_new-york-city-blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01_learn_html/07_semantic_html/project_new-york-city-blog/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/01_inline_styles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/02_style-tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/03_css-file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/04_changing_selectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/05_nested_elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/06_Chaining and Specificity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/07_multiple_selectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/08_review.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/01_learn_html/project_fashon_blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_learn_html/02_html_document_standards/project_fashon_blog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -95,6 +100,8 @@
       <updated>1602444687223</updated>
       <workItem from="1602444688555" duration="11471000" />
       <workItem from="1602513700450" duration="4547000" />
+      <workItem from="1602519712553" duration="6158000" />
+      <workItem from="1602590339067" duration="1611000" />
     </task>
     <servers />
   </component>
@@ -111,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602495319683">
