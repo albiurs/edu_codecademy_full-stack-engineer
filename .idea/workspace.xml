@@ -20,21 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project01_healthy_recipes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project01_healthy_recipes/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project02_olivia_woodruff_portfolio/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project02_olivia_woodruff_portfolio/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/dasmotos-arts_redline.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/finnish.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/frames.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/hacksaw.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/pattern.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/styles/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/01_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/03_arithmetic_operators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/04_string_concatenation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/05_properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/06_methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/07_built-in_objects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/06_Chaining and Specificity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/06_Chaining and Specificity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_learn_css/01_css_setup_and_selectors/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/02_data_types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/02_data_types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +90,7 @@
       <workItem from="1602513700450" duration="4547000" />
       <workItem from="1602519712553" duration="6158000" />
       <workItem from="1602590339067" duration="3229000" />
-      <workItem from="1602839126755" duration="6211000" />
+      <workItem from="1602839126755" duration="7594000" />
     </task>
     <servers />
   </component>
