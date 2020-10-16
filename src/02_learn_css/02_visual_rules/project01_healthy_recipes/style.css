@@ -1,0 +1,34 @@
+/* element styles */
+h1 h2 p li {
+    font-family: Helvetica;
+}
+
+img {
+    height: 150px;
+}
+
+/* classes */
+.description {
+    font-size: 20px;
+}
+
+/* id's */
+#cook-time {
+    font-weight: bold;
+}
+
+/* nested elemts */
+.ingredients li {
+    list-style: square;
+}
+
+/* chaining selectors */
+p.time {
+    color: gray;
+}
+
+/* nesting and chaining combo */
+.citation a.external-link {
+    color: SeaGreen;
+
+}

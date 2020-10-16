@@ -36,7 +36,7 @@ h2.destination {
     font-family: cursive;
 }
 
-/* nested elements (h5 inside .description
+/* nested elements: (.desctiption class with a nested h5-tag inside)
   & also specific definition of h5 element above */
 .description h5 {
     color: teal;
