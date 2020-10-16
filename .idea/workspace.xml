@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/03_arithmetic_operators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/04_string_concatenation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/05_properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/06_methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/07_built-in_objects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/02_data_types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript/02_data_types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,7 @@
       <workItem from="1602513700450" duration="4547000" />
       <workItem from="1602519712553" duration="6158000" />
       <workItem from="1602590339067" duration="3229000" />
-      <workItem from="1602839126755" duration="7594000" />
+      <workItem from="1602839126755" duration="8080000" />
     </task>
     <servers />
   </component>
