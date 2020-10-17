@@ -1,6 +1,5 @@
 let userName = 'Noa';
-// let userQuestion = 'Will I become a werewolf tonight?';
-let userQuestion = 'Werde ich Mona heiraten?';
+let userQuestion = 'Will I become a werewolf tonight?';
 let randomNumber;
 let eightBall = '';
 

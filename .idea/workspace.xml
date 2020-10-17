@@ -20,22 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/project01_kelvin_weather/kelvin_weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/project02_dog_years/dog_years.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/01_if_statement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/02_if...else statement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/03_comparision_operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/04_logical_operators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/05_truthy_and_falsy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/06_truthy_and_falsy_assignement_-_short-circuit_evaluation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/07_ternery_operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/08_else-if_statements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/09_switch_keyword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/10_review.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball/magic_eight_ball.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/articles/01_JavaScript Versions: ES6 and Before.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/articles/javascript_timeline.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball/magic_eight_ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball/magic_eight_ball.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +73,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.magic_eight_ball.js">
-    <configuration name="03_create_a_variable_const.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/02_variables/03_create_a_variable_const.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/02_variables">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.race_day.js">
     <configuration name="06_string_concatenation_variables.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/02_variables/06_string_concatenation_variables.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/02_variables">
       <method v="2" />
     </configuration>
@@ -103,13 +86,16 @@
     <configuration name="magic_eight_ball.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball/magic_eight_ball.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball">
       <method v="2" />
     </configuration>
+    <configuration name="race_day.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project02_race_day/race_day.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project02_race_day">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.race_day.js" />
         <item itemvalue="Node.js.magic_eight_ball.js" />
         <item itemvalue="Node.js.09_switch_keyword.js" />
         <item itemvalue="Node.js.dog_years.js" />
         <item itemvalue="Node.js.06_string_concatenation_variables.js" />
-        <item itemvalue="Node.js.03_create_a_variable_const.js" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +112,7 @@
       <workItem from="1602519712553" duration="6158000" />
       <workItem from="1602590339067" duration="3229000" />
       <workItem from="1602839126755" duration="8417000" />
-      <workItem from="1602930809544" duration="8594000" />
+      <workItem from="1602930809544" duration="9069000" />
     </task>
     <servers />
   </component>
@@ -153,22 +139,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1536.937@0.23.1536.937" timestamp="1602495319683" />
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1602952673670">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1602954401653">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1602952673670" />
-    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1602952673669">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1602954401653" />
+    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1602954401652">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1602952673669" />
-    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1602952673669">
+    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1602954401652" />
+    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1602954401652">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1602952673669" />
-    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1602952673669">
+    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1602954401652" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1602954401653">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1602952673669" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1602954401653" />
     <state x="269" y="130" key="SettingsEditor" timestamp="1602943667912">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
