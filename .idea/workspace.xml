@@ -20,7 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/01_create_a_variable_var.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/02_create_a_variable_let.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/03_create_a_variable_const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/04_mathematical_assignement_operators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/05_the_increment_and_decrement_operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/06_string_concatenation_variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/07_string_interpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/08_typeof_operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/02_variables/09_review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/04_Scope.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/05_Arrays.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/06_Loops.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/07_Iterators.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/08_Objects.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/09_Classes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/10_Browser_Compatibility_and_Transpilation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/11_Modules.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/12_Promises.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/13_Async-Await.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/14_Requests.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/01_Introduction.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/01_Introduction.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/02_Conditionals.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/02_Conditionals.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/03_Functions.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/cheat_cheets/03_Functions.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +95,24 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="RunManager" selected="Node.js.06_string_concatenation_variables.js">
+    <configuration name="02_create_a_variable_let.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/02_variables/02_create_a_variable_let.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/02_variables">
+      <method v="2" />
+    </configuration>
+    <configuration name="03_create_a_variable_const.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/02_variables/03_create_a_variable_const.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/02_variables">
+      <method v="2" />
+    </configuration>
+    <configuration name="06_string_concatenation_variables.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/02_variables/06_string_concatenation_variables.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/02_variables">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.06_string_concatenation_variables.js" />
+        <item itemvalue="Node.js.03_create_a_variable_const.js" />
+        <item itemvalue="Node.js.02_create_a_variable_let.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +125,8 @@
       <workItem from="1602513700450" duration="4547000" />
       <workItem from="1602519712553" duration="6158000" />
       <workItem from="1602590339067" duration="3229000" />
-      <workItem from="1602839126755" duration="8080000" />
+      <workItem from="1602839126755" duration="8417000" />
+      <workItem from="1602930809544" duration="2623000" />
     </task>
     <servers />
   </component>
@@ -111,6 +153,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1536.937@0.23.1536.937" timestamp="1602495319683" />
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1602933066813">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1602933066813" />
+    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1602933066812">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1602933066812" />
+    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1602933066811">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1602933066811" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1602933066812">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1602933066812" />
     <state x="269" y="130" key="SettingsEditor" timestamp="1602495831899">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
