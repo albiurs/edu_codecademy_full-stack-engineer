@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/01_functions_declarations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/02_calling_a_function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/03_parameters_and_arguments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/04_default_parameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/05_return.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/06_helper_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/07_function_expressions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/08_arrow_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/09_concise_body_arrow_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/10_review_functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball/magic_eight_ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball/magic_eight_ball.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +82,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.race_day.js">
-    <configuration name="06_string_concatenation_variables.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/02_variables/06_string_concatenation_variables.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/02_variables">
+  <component name="RunManager" selected="Node.js.08_arrow_functions.js">
+    <configuration name="04_default_parameters.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/04_functions/04_default_parameters.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/04_functions">
       <method v="2" />
     </configuration>
-    <configuration name="09_switch_keyword.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/09_switch_keyword.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements">
+    <configuration name="05_return.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/04_functions/05_return.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/04_functions">
       <method v="2" />
     </configuration>
-    <configuration name="dog_years.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/02_variables/project02_dog_years/dog_years.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/02_variables/project02_dog_years">
+    <configuration name="08_arrow_functions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/04_functions/08_arrow_functions.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/04_functions">
       <method v="2" />
     </configuration>
     <configuration name="magic_eight_ball.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball/magic_eight_ball.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements/project01_Magic_Eight_Ball">
@@ -91,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.08_arrow_functions.js" />
+        <item itemvalue="Node.js.05_return.js" />
+        <item itemvalue="Node.js.04_default_parameters.js" />
         <item itemvalue="Node.js.race_day.js" />
         <item itemvalue="Node.js.magic_eight_ball.js" />
-        <item itemvalue="Node.js.09_switch_keyword.js" />
-        <item itemvalue="Node.js.dog_years.js" />
-        <item itemvalue="Node.js.06_string_concatenation_variables.js" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +121,8 @@
       <workItem from="1602519712553" duration="6158000" />
       <workItem from="1602590339067" duration="3229000" />
       <workItem from="1602839126755" duration="8417000" />
-      <workItem from="1602930809544" duration="9069000" />
+      <workItem from="1602930809544" duration="9313000" />
+      <workItem from="1603216313861" duration="4239000" />
     </task>
     <servers />
   </component>
@@ -135,29 +145,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="484" y="300" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603219685908">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="484" y="300" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1536.937@0.23.1536.937" timestamp="1603219685908" />
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602495319683">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1536.937@0.23.1536.937" timestamp="1602495319683" />
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1602954401653">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1603219362785">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1602954401653" />
-    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1602954401652">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1603219362785" />
+    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1603219362784">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1602954401652" />
-    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1602954401652">
+    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1603219362784" />
+    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1603219362783">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1602954401652" />
-    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1602954401653">
+    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1603219362783" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1603219362784">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1602954401653" />
-    <state x="269" y="130" key="SettingsEditor" timestamp="1602943667912">
+    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1603219362784" />
+    <state x="269" y="130" key="SettingsEditor" timestamp="1603216446422">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state x="269" y="130" key="SettingsEditor/0.23.1536.937@0.23.1536.937" timestamp="1602943667912" />
+    <state x="269" y="130" key="SettingsEditor/0.23.1536.937@0.23.1536.937" timestamp="1603216446422" />
   </component>
 </project>
