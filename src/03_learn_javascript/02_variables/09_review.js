@@ -44,3 +44,22 @@ let fahrenheit = celsius * (9/5) +32;
 // round down the value of fahrenheit
 fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
+
+
+const test1 = 'figuring out quirks';
+console.log(test1);
+
+
+let varOne = 1;
+let varTwo = 2;
+let varString = 'Hello';
+
+const calculation = () => varOne + varTwo;
+
+console.log(varString + ': ' + calculation());
+
+console.log(typeof varOne);
+console.log(typeof varString);
+
