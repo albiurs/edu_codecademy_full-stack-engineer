@@ -64,7 +64,6 @@ console.log(lifePhase(140));
 console.log(lifePhase(141));
 
 
-
 /**
  * calculates the final avarage grade of three number between 0 and 100.
  * @param grade1
@@ -201,7 +200,6 @@ const truthyOrFalsy = value => value ? true : false
 
 console.log(truthyOrFalsy(0n));
 console.log(truthyOrFalsy('xx'));
-
 
 
 /**
