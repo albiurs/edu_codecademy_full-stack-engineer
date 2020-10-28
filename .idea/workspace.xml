@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_learn_html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/05_scope/project01_training_days/trainingDays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/code-challenge-01-05_javascript-fundamentals/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project03_number_guesser_challenge_project/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/project01_l01-05_number_guesser_challenge_project/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project03_number_guesser_challenge_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/project01_l01-05_number_guesser_challenge_project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project03_number_guesser_challenge_project/number-guesser-starting.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/project01_l01-05_number_guesser_challenge_project/number-guesser-starting.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project03_number_guesser_challenge_project/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/project01_l01-05_number_guesser_challenge_project/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project03_number_guesser_challenge_project/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/project01_l01-05_number_guesser_challenge_project/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,18 +69,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/01_learn_html/05_html_forms" />
+      <recent name="$PROJECT_DIR$/src/01_introduction_to_html/02_html_document_standards" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project03_number_guesser_challenge_project" />
       <recent name="$PROJECT_DIR$/src/01_learn_html/02_html_document_standards" />
       <recent name="$PROJECT_DIR$/src/01_learn_html" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/01_learn_html/05_html_forms" />
-      <recent name="$PROJECT_DIR$/src/01_introduction_to_html/02_html_document_standards" />
-    </key>
   </component>
-  <component name="RunManager" selected="Node.js.trainingDays.js">
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration name="02_global_scope.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/05_scope/02_global_scope.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/05_scope">
       <method v="2" />
     </configuration>
@@ -86,7 +91,7 @@
     <configuration name="05_best_practice_for_good_scoping.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/05_scope/05_best_practice_for_good_scoping.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/05_scope">
       <method v="2" />
     </configuration>
-    <configuration name="sleep_dept_calculator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project02_sleep_dept_calculator/sleep_dept_calculator.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/04_functions/project02_sleep_dept_calculator">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/code-challenge-01-05_javascript-fundamentals/main.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/code-challenge-01-05_javascript-fundamentals">
       <method v="2" />
     </configuration>
     <configuration name="trainingDays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/05_scope/project01_training_days/trainingDays.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/05_scope/project01_training_days">
@@ -94,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.trainingDays.js" />
         <item itemvalue="Node.js.05_best_practice_for_good_scoping.js" />
         <item itemvalue="Node.js.03_block_scope.js" />
         <item itemvalue="Node.js.02_global_scope.js" />
-        <item itemvalue="Node.js.sleep_dept_calculator.js" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +127,7 @@
       <workItem from="1603696604961" duration="3837000" />
       <workItem from="1603780373529" duration="111000" />
       <workItem from="1603801544305" duration="839000" />
+      <workItem from="1603867152111" duration="4301000" />
     </task>
     <servers />
   </component>
@@ -152,22 +158,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1536.937@0.23.1536.937" timestamp="1602495319683" />
-    <state width="1515" height="310" key="GridCell.Tab.0.bottom" timestamp="1603808357675">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1603886693692">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="310" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1603808357675" />
-    <state width="1515" height="310" key="GridCell.Tab.0.center" timestamp="1603808357674">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1603886693692" />
+    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1603886693691">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="310" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1603808357674" />
-    <state width="1515" height="310" key="GridCell.Tab.0.left" timestamp="1603808357674">
+    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1603886693691" />
+    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1603886693690">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="310" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1603808357674" />
-    <state width="1515" height="310" key="GridCell.Tab.0.right" timestamp="1603808357675">
+    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1603886693690" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1603886693692">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="310" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1603808357675" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1603886693692" />
     <state width="1515" height="310" key="GridCell.Tab.1.bottom" timestamp="1603808357676">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
