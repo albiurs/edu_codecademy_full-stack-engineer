@@ -1,0 +1,106 @@
+{
+    "version": "2.0.0",
+    "command": "bash",
+    "args": [
+        "-c"
+    ],
+    "tasks": [
+        {
+            "label": "Open with default browser",
+            "group": "build",
+            "command": "open",
+            "type": "shell",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "args": ["${file}"]
+        },
+        {
+            "label": "Open with Google Chrome",
+            "group": "build",
+            "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            "type": "shell",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "args": ["${file}"]
+        },
+        {
+            "label": "Open with Firefox",
+            "group": "build",
+            "command": "/Applications/Firefox.app/Contents/MacOS/firefox",
+            "type": "shell",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "args": ["${file}"]
+        },
+        {
+            "label": "Open with Firefox Developer Edition",
+            "group": "build",
+            "command": "/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox",
+            "type": "shell",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "args": ["${file}"]
+        },
+        {
+            "label": "Run with Node",
+            "group": "build",
+            "command": "node",
+            "type": "shell",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "args": ["${file}"]
+        },
+        
+        // {
+        //     "taskName": "My First Command",
+        //     "suppressTaskName": true,
+        //     "isBuildCommand": true,
+        //     "args": ["echo cmd1"]
+        // },
+        // {
+        //     "taskName": "My Command Requiring .bash_profile",
+        //     "suppressTaskName": true,
+        //     "args": ["source ~/.bash_profile && echo cmd2"]
+        // },
+        // {
+        //     "taskName": "My Python task",
+        //     "suppressTaskName": true,
+        //     "args": ["/usr/bin/python ${file}"]
+        // }
+    ]
+}
+
+
+
+
+
