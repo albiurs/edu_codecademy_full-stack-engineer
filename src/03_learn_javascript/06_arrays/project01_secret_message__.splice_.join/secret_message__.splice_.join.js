@@ -14,7 +14,11 @@ secretMessage.shift();
 secretMessage.unshift('Programming');
 console.log(secretMessage);
 
+// array.splice(startIndex, deleteCounter, replaceElement1, replaceElement2...)
+// delete and replace elements starting at index 6, deleting 5 elements and replacing by 'know'.
 secretMessage.splice(6, 5, 'know');
 console.log(secretMessage);
 
-console.log(secretMessage.join());
+// array.join('separator')
+// chain array elements together, separated with a blank ' '.
+console.log(secretMessage.join(' '));
