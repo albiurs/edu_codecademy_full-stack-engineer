@@ -20,23 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/01_for_loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/02_lloping_trough_arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/03_nested_loops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/04_while_loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/05_do-while_loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/06_break_keyword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/07_review.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/07_loops/project_whale_talk/whale_talk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/08_objects/01_object_literals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/08_objects/02_accessing_properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/08_objects/03_bracket_notation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/08_objects/04_property_assignement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/08_objects/05_methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/08_objects/06_nested_objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/08_objects/07_pass_by_reference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/05_setters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/06_factory_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/07_destructing_-_property_value_shorthand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/08_destructed_assignement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/09_buit-in_object_methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/project_meal_maker/meal_maker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/06_arrays/project01_secret_message__.splice_.join/secret_message__.splice_.join.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/06_arrays/project01_secret_message__.splice_.join/secret_message__.splice_.join.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,29 +81,29 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.06_nested_objects.js">
+  <component name="RunManager" selected="Node.js.meal_maker.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/edu_codecademy_web-development/src/03_learn_javascript/05_scope/project02_l01-05_number_guesser_challenge_project/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="01_create_an_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/06_arrays/01_create_an_array.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/06_arrays">
-      <method v="2" />
-    </configuration>
-    <configuration name="02_accessing_elements.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/06_arrays/02_accessing_elements.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/06_arrays">
+    <configuration name="05_setters.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/05_setters.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects">
       <method v="2" />
     </configuration>
     <configuration name="06_nested_objects.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/08_objects/06_nested_objects.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/08_objects">
       <method v="2" />
     </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/05_scope/project02_l01-05_number_guesser_challenge_project/script.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/05_scope/project02_l01-05_number_guesser_challenge_project">
+    <configuration name="09_buit-in_object_methods.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/09_buit-in_object_methods.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects">
+      <method v="2" />
+    </configuration>
+    <configuration name="meal_maker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/project_meal_maker/meal_maker.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/project_meal_maker">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.meal_maker.js" />
+        <item itemvalue="Node.js.09_buit-in_object_methods.js" />
+        <item itemvalue="Node.js.05_setters.js" />
         <item itemvalue="Node.js.06_nested_objects.js" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.02_accessing_elements.js" />
-        <item itemvalue="Node.js.01_create_an_array.js" />
-        <item itemvalue="Node.js.script.js" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +131,10 @@
       <workItem from="1603895827879" duration="630000" />
       <workItem from="1603951293835" duration="5197000" />
       <workItem from="1603986019155" duration="556000" />
-      <workItem from="1604266500633" duration="2560000" />
+      <workItem from="1604266500633" duration="2822000" />
+      <workItem from="1604353009171" duration="136000" />
+      <workItem from="1604355697074" duration="82000" />
+      <workItem from="1604389214652" duration="10419000" />
     </task>
     <servers />
   </component>
@@ -175,22 +169,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1536.937@0.23.1536.937" timestamp="1602495319683" />
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1604319341831">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1604402264181">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1604319341831" />
-    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1604319341829">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1604402264181" />
+    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1604402264181">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1604319341829" />
-    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1604319341829">
+    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1604402264181" />
+    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1604402264181">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1604319341829" />
-    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1604319341830">
+    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1604402264181" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1604402264181">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1604319341830" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1604402264181" />
     <state width="1515" height="310" key="GridCell.Tab.1.bottom" timestamp="1603986598315">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
