@@ -17,3 +17,9 @@
 //     As with any concept, it is a good skill to learn how to use the documentation with objects!
 //
 // You’re ready to start leveraging more elegant code for creating and accessing objects in your code!
+
+// MDN - Introducing JavaScript objects:
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects
+
+// MDN - Objects
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
