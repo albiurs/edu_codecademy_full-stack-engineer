@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/01_introduction_to_iterators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/02_.foreEach.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/03_.map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/04_.filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/05_.findIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/06_.reduce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/07_iterator_documentation__.some__.every.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/08_choose_right_iterator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/09_review.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/10_iterators/01_iterators/project_mini_linter/mini_linter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +132,10 @@
       <workItem from="1604407580846" duration="1280000" />
       <workItem from="1604472272272" duration="8023000" />
       <workItem from="1604561403892" duration="13274000" />
+      <workItem from="1604580816907" duration="55000" />
+      <workItem from="1604763137556" duration="834000" />
+      <workItem from="1604901783416" duration="55000" />
+      <workItem from="1604902102868" duration="274000" />
     </task>
     <servers />
   </component>
