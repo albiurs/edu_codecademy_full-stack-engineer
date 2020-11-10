@@ -48,3 +48,17 @@ const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 
 // Iterate over fruits below
 fruits.forEach(fruit => console.log('I want to eat a ' + fruit));
+
+
+
+
+// one more example
+const greetAliens = aliens => {
+    aliens.forEach(el => {
+        console.log(`Oh powerful ${el}, we humans offer our unconditional surrender!`);
+    });
+}
+
+const aliens = ["Blorgous", "Glamyx", "Wegord", "SpaceKing"];
+
+greetAliens(aliens);

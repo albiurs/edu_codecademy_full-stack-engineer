@@ -10,8 +10,10 @@ let story = 'Last weekend, I took literally the most beautiful bike ride of my l
 let overusedWords = ['really', 'very', 'basically'];
 let unnecessaryWords = ['extremely', 'literally', 'actually' ];
 
+// Split a string into substrings using the specified separator and return them as an array.
 const storyWords = story.split(' ');
 console.log(storyWords.length);
+
 
 const betterWords = storyWords.filter(el => {
     return !unnecessaryWords.includes(el);
@@ -19,8 +21,32 @@ const betterWords = storyWords.filter(el => {
 console.log(betterWords);
 console.log(betterWords.length);
 
-overusedWords.forEach(overusedWord => {
-    betterWords.forEach(word => {
 
+let overusedWordCount = 0;
+overusedWords.forEach(overusedWord => {
+    let counter = 0;
+    betterWords.forEach(word => {
+        if (overusedWord === word) {
+            counter++;
+            overusedWordCount++;
+        };
     })
+    console.log('You used the word "' + overusedWord + '" ' + counter + " times.");
 });
+
+
+let sentences = 0;
+betterWords.forEach(el => {
+    // console.log(el);
+    if (el[el.length - 1] === '.' || el[el.length - 1] === '!') {
+        // console.log(el[el.length - 1]);
+        sentences++;
+    }
+});
+
+
+// word count
+console.log('Word count: ' + betterWords.length);       // Word count: 182
+console.log('Sentence count: ' + sentences);            // Sentence count: 12
+console.log('Overused words: ' + overusedWordCount);    // Overused words: 8
+console.log(betterWords.join(' '));                     // Output the array as a String, separated words by blanks ' '.

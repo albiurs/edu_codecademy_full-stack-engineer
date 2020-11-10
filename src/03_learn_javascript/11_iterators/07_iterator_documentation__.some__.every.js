@@ -39,7 +39,7 @@ console.log(interestingWords);
 // logs [ 'unique', 'uncanny', 'oxymoron' ]
 
 
-// Make sure to uncomment the code below and fix the incorrect code before running it
+// Checks if every element in the array is > 5
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
 console.log(interestingWords.every((word) => {
     return word.length > 5;
