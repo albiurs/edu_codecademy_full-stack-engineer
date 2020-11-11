@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name">
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math/Math.floor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math/Math.random.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/06_square_nums__Math.pow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math/07_built-in_objects__.Math.random__.Math.floor__.Math.ceil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math/Math.ceil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math/code-challenge_js-fundamentals__Math.round.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math/Math.round.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/06_square_nums.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math/Math.pow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/06_arrays/array.sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/07_shout_greetings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/08_sort_years__array.sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/09_just_cool_stuff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/03_learn_javascript/06_arrays" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -67,13 +66,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/07_loops" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/built-in_objects/date" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types/string" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/06_arrays" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/11_iterators" />
@@ -81,30 +73,37 @@
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types/data_types" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types/Math" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/06_arrays" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/07_loops" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/built-in_objects/date" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types/string" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.06_square_nums__Math.pow.js">
-    <configuration name="03_convert_to_baby.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/03_convert_to_baby.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript">
-      <method v="2" />
-    </configuration>
-    <configuration name="04_fix_broken_code.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/04_fix_broken_code.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.array.sort.js">
     <configuration name="05_decline_and_accept_everythin.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/05_decline_and_accept_everythin.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript">
       <method v="2" />
     </configuration>
     <configuration name="06_square_nums__Math.pow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/06_square_nums__Math.pow.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript">
       <method v="2" />
     </configuration>
-    <configuration name="09_for...in__looping_through_arrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/07_loops/09_for...in__looping_through_arrays.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/07_loops">
+    <configuration name="07_shout_greetings.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/07_shout_greetings.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="08_sort_years__array.sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/08_sort_years__array.sort.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="array.sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/06_arrays/array.sort.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/06_arrays">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.array.sort.js" />
+        <item itemvalue="Node.js.08_sort_years__array.sort.js" />
+        <item itemvalue="Node.js.07_shout_greetings.js" />
         <item itemvalue="Node.js.06_square_nums__Math.pow.js" />
         <item itemvalue="Node.js.05_decline_and_accept_everythin.js" />
-        <item itemvalue="Node.js.04_fix_broken_code.js" />
-        <item itemvalue="Node.js.03_convert_to_baby.js" />
-        <item itemvalue="Node.js.09_for...in__looping_through_arrays.js" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +142,8 @@
       <workItem from="1604763137556" duration="834000" />
       <workItem from="1604901783416" duration="55000" />
       <workItem from="1604902102868" duration="6463000" />
-      <workItem from="1604990339286" duration="13162000" />
+      <workItem from="1604990339286" duration="13395000" />
+      <workItem from="1605076215849" duration="4414000" />
     </task>
     <task id="LOCAL-00001" summary="updated repo name">
       <created>1604903009549</created>
@@ -188,22 +188,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="506" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1536.937@0.23.1536.937" timestamp="1602495319683" />
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1605011039609">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1605084419928">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1605011039609" />
-    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1605011039608">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1605084419928" />
+    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1605084419927">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1605011039608" />
-    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1605011039607">
+    <state width="1515" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1605084419927" />
+    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1605084419927">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1605011039607" />
-    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1605011039608">
+    <state width="1515" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1605084419927" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1605084419928">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1605011039608" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1605084419928" />
     <state width="1515" height="310" key="GridCell.Tab.1.bottom" timestamp="1603986598315">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
