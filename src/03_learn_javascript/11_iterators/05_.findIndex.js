@@ -1,6 +1,8 @@
 // The .findIndex() Method
 //
 // We sometimes want to find the location of an element in an array. That’s where the .findIndex() method comes in!
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+
 // Calling .findIndex() on an array will return the index of the first element that evaluates to true in the callback
 // function.
 
