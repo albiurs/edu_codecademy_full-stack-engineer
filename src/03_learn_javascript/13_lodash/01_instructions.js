@@ -25,7 +25,9 @@
 // consider ours. Whichever you pick in the end is completely your decision, and we support it completely.
 //
 // You have the choice of writing this project within the Codecademy environment to the right or locally on your own
-// computer by downloading the starting code here. Feel free to proceed in whichever environment you are most
+// computer by downloading the starting code here:
+// https://content.codecademy.com/programs/programming-with-javascript/lodash.zip
+// Feel free to proceed in whichever environment you are most
 // comfortable with.
 //
 // With all of that said, let’s get started implementing some awesome new functionality!
