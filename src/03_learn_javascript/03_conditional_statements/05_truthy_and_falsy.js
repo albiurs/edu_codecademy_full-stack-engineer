@@ -35,8 +35,17 @@ if (numberOfApples){
 } else {
     console.log('No apples left!');
 }
-
 // Prints 'No apples left!'
+
+isApples = true;
+
+if (isApples){
+    console.log('Let us eat apples!');
+} else {
+    console.log('No apples left!');
+}
+// Prints 'Let us eat apples!'
+
 
 // The condition evaluates to false because the value of the numberOfApples is 0. Since 0 is a falsy value, the code
 // block in the else statement will run.

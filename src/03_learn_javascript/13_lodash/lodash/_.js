@@ -124,19 +124,184 @@ const _ = {
         let endPaddingLength = length - string.length - startPaddingLength;
         let paddedString = ' '.repeat(startPaddingLength) + string + ' '.repeat(endPaddingLength);
         return paddedString;
+    },
+
+
+    /**
+     * _.has()
+     * https://lodash.com/docs/4.17.15#has
+     * modified implementation:
+     * check if object contains key.
+     * @param object
+     * @param key
+     * @returns {boolean}
+     */
+    // my solution
+    has(object, key) {
+        // return object[key] ? true : false;
+        return !!object[key];                   // short cut of the above: double negation check => positive check
+    },
+    // CodeCademy's solution
+    // has(object, key) {
+    //     let hasValue = object[key] != undefined;
+    //     return hasValue;
+    // },
+
+
+    /**
+     * _.invert()
+     * https://lodash.com/docs/4.17.15#invert
+     * modified implementation of invert:
+     * Inverts the key and the value of all properties in an object
+     * @param object
+     * @returns {{}}
+     */
+    // my solution
+    invert(object) {
+        let newObject = {};
+        for(let prop in object) {
+            newObject[object[prop]] = prop;
+        }
+        return newObject;
+    },
+
+
+    /**
+     * _.findKes()
+     * https://lodash.com/docs/4.17.15#findKey
+     * @param object
+     * @param predicateFunc
+     * @returns {string|undefined}
+     */
+    findKey(object, predicateFunc) {
+        let match = '';
+        for(let prop in object) {
+            // console.log(prop);
+            // console.log(object[prop]);
+            // console.log(object[prop].age);
+            // let flag = predicateFunc(object[prop]);
+            // console.log(flag);
+            // let currentProperty = object[prop];
+            if(predicateFunc(object[prop])) {
+                match = prop;
+                return match;
+            }
+        }
+        return undefined;
+    },
+
+
+    /**
+     * _.drop()
+     * https://lodash.com/docs/4.17.15#drop
+     * @param array
+     * @param number
+     * @returns {*}
+     */
+    // my solution
+    // drop(array, number = 1) {
+    //     for(let i = 0; i<number; i++) {
+    //         array.shift();
+    //     }
+    //     return array;
+    // },
+
+    // CodeCademy's solution
+    drop(array, n) {
+        if(n === undefined) {
+            n = 1;
+        }
+        let droppedArray = array.slice(n, array.length);
+        return droppedArray;
+    },
+
+
+    /**
+     * _.dropWhile()
+     * https://lodash.com/docs/4.17.15#dropWhile
+     *
+     * @param array
+     * @param predicateFunc
+     * @returns {*}
+     */
+    // dropWhile(array, predicateFunc) {
+    //     // for(let key in array) {
+    //     for(let i=0; i<array.length; i++) {
+    //         // console.log('array[i] = ' + array[i]);
+    //         console.log(array[i].user);
+    //         if(predicateFunc(!array[i])) {
+    //             array.shift();
+    //             break;
+    //         }
+    //         array.shift();
+    //     }
+    //     return array;
+    // }
+    // CodeCademy's solution
+    dropWhile(array, predicate) {
+        const callback = (element, index) => {
+            return !predicate(element, index, array);
+        }
+        let dropNumber = array.findIndex(callback);
+        let droppedArray = this.drop(array, dropNumber);
+        return droppedArray;
+        // let dropNumber = array.findIndex((el) => {
+        //     return !predicateFunc(el, array);
+        // });
+        // console.log(dropNumber);
+        // let droppedArray = this.drop(dropNumber);
+        // return droppedArray;
     }
-};
+}
 
 
-console.log(_.clamp(3, 2, 4));    // 3
-console.log(_.inRange(2, 1, 3));    // true
-console.log(_.words(('xxx yyyy & zzz')));              // [ 'xxx', 'yyyy', '&', 'zzz' ]
-console.log(_.pad('xxxx', 7));
+// console.log(_.clamp(3, 2, 4));    // 3
+// console.log(_.inRange(2, 1, 3));    // true
+// console.log(_.words(('xxx yyyy & zzz')));              // [ 'xxx', 'yyyy', '&', 'zzz' ]
+// console.log(_.pad('xxxx', 7));            //    ' xxxx  '
+// console.log(_.has({"key": "value"}, "key"));    // true
+// console.log(_.has({"key": "value"}, "notKey")); // false
+// console.log(_.invert({"key": "value", "key2": "value2"}));  // { value: 'key', value2: 'key2' }
+//
+//
+// let usersObject = {
+//     'barney':  { 'age': 36, 'active': true },
+//     'fred':    { 'age': 40, 'active': false },
+//     'pebbles': { 'age': 1,  'active': true }
+// };
+//
+// // conventional predicate function (= returns true or false)
+// console.log(_.findKey(usersObject, function(o) { return o.age < 40; }));  // => 'barney'
+// console.log(_.findKey(usersObject, function(o) { return o.age === 40; }));  // => 'fred'
+// console.log(_.findKey(usersObject, function(o) { return o.age < 0; }));  // => 'undefined'
+//
+// // predicate arrow function (= returns true or false)
+// console.log(_.findKey(usersObject, (o) => o.age < 40));  // => 'barney'
+// console.log(_.findKey(usersObject, (o) => o.age === 40));  // => 'fred'
+// console.log(_.findKey(usersObject, (o) => o.age < 0));  // => 'undefined'
+//
+//
+//
+console.log(_.drop([1, 2, 3]));              // => [2, 3]
+console.log(_.drop([1, 2, 3], 2));   // => [3]
+console.log(_.drop([1, 2, 3], 5));   // => []
+console.log(_.drop([1, 2, 3], 0));   // => [1, 2, 3]
 
 
 
+let usersArray = [
+    { 'user': 'barney',  'active': true },
+    { 'user': 'fred',    'active': true },
+    { 'user': 'pebbles', 'active': false }
+];
 
-// Math.floor(length / string.length)
+// console.log(usersArray[2].active);
+
+console.log(_.dropWhile(usersArray, function(o) { return o.active; })); // [ { user: 'pebbles', active: true } ]
+console.log(_.dropWhile(usersArray, function(o) { return o.user != 'pebbles'; })); // [ { user: 'pebbles', active: false } ]
+console.log(_.dropWhile(usersArray, function(o) { return o.user != 'fred'; })); // [ { user: 'fred', active: true }, { user: 'pebbles', active: false } ]
+
+
 
 
 

@@ -15,17 +15,6 @@
 const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 console.log(groceryList);
 
-// .shift()
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
-groceryList.shift();
-console.log(groceryList);
-
-// .unshift()
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
-groceryList.unshift('popcorn');
-console.log(groceryList);
-
-
 // .slice()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 const slice = groceryList.slice(1, 4);  // array.slice(first, last+1)
@@ -34,7 +23,15 @@ console.log(groceryList.slice(1, 4));
 console.log(groceryList);
 
 
-// .indexOf()
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
-const pastaIndex = groceryList.indexOf('pasta');
-console.log(pastaIndex);
+
+
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2));
+// expected output: Array ["camel", "duck", "elephant"]
+
+console.log(animals.slice(2, 4));
+// expected output: Array ["camel", "duck"]
+
+console.log(animals.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"]

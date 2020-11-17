@@ -88,3 +88,45 @@ const checkConsistentOutput = (func, value) => {
 const addTwo = num => num + 2;
 const isConsistent = checkConsistentOutput(addTwo, 3);
 console.log('Double calc of addTwo(3) results in: ' + isConsistent);
+
+
+
+
+
+const _ = {
+
+    /**
+     * _.findKes()
+     * https://lodash.com/docs/4.17.15#findKey
+     * @param object
+     * @param predicateFunc
+     * @returns {string|undefined}
+     */
+    findKey(object, predicateFunc) {
+        let match = '';
+        for(let prop in object) {
+            if(predicateFunc(object[prop])) {
+                match = prop;
+                return match;
+            }
+        }
+        return undefined;
+    }
+}
+
+let users = {
+    'barney':  { 'age': 36, 'active': true },
+    'fred':    { 'age': 40, 'active': false },
+    'pebbles': { 'age': 1,  'active': true }
+};
+
+// conventional predicate function (= returns true or false)
+console.log(_.findKey(users, function(o) { return o.age < 40; }));  // => 'barney'
+console.log(_.findKey(users, function(o) { return o.age === 40; }));  // => 'fred'
+console.log(_.findKey(users, function(o) { return o.age < 0; }));  // => 'undefined'
+
+// predicate arrow function (= returns true or false)
+console.log(_.findKey(users, (o) => o.age < 40));  // => 'barney'
+console.log(_.findKey(users, (o) => o.age === 40));  // => 'fred'
+console.log(_.findKey(users, (o) => o.age < 0));  // => 'undefined'
+

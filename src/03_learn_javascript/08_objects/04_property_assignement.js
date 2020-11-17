@@ -48,4 +48,21 @@ let spaceship3 = {
   spaceship3.numEngines = 7;
   
   delete spaceship3['Secret Mission'];
+
+
+
+
+
+// dynamically add new property to an object
+var data = {
+    'PropertyA': 1,
+    'PropertyB': 2,
+    'PropertyC': 3
+};
+
+data["PropertyD"] = 4;
+
+// logs 4
+console.log(data.PropertyD);
+console.log(data["PropertyD"]);
   
