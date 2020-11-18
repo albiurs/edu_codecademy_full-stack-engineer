@@ -200,10 +200,11 @@ const _ = {
      */
     // my solution
     // drop(array, number = 1) {
+    //     let droppedArray = array;
     //     for(let i = 0; i<number; i++) {
-    //         array.shift();
+    //         droppedArray.shift();
     //     }
-    //     return array;
+    //     return droppedArray;
     // },
 
     // CodeCademy's solution
@@ -219,7 +220,6 @@ const _ = {
     /**
      * _.dropWhile()
      * https://lodash.com/docs/4.17.15#dropWhile
-     *
      * @param array
      * @param predicateFunc
      * @returns {*}
@@ -236,7 +236,8 @@ const _ = {
     //         array.shift();
     //     }
     //     return array;
-    // }
+    // },
+
     // CodeCademy's solution
     dropWhile(array, predicate) {
         const callback = (element, index) => {
@@ -245,13 +246,41 @@ const _ = {
         let dropNumber = array.findIndex(callback);
         let droppedArray = this.drop(array, dropNumber);
         return droppedArray;
-        // let dropNumber = array.findIndex((el) => {
-        //     return !predicateFunc(el, array);
-        // });
-        // console.log(dropNumber);
-        // let droppedArray = this.drop(dropNumber);
-        // return droppedArray;
-    }
+    },
+
+
+    /**
+     * _.chunk()
+     * https://lodash.com/docs/4.17.15#chunk
+     * @param array
+     * @param size
+     * @returns {[]}
+     */
+    // my solution
+    chunk(array, size) {
+        if(size === undefined) {
+            size = 1;
+        }
+        let chunkArray = [];
+        let chunk = [];
+        while(array.length > 0) {
+            chunk = array.slice(0, size);
+            array = array.slice(size, array.length);
+            chunkArray.push(chunk);
+        }
+        return chunkArray;
+    },
+
+    // CodeCaemy's solution
+    // !!!!! WRONG SOLUTION FROM CODECADEMY BELOW !!!!!
+    // chunk(array, size=1) {
+    //     let arrayChunks = [];
+    //     for(let i=0; i<array.length; i+=1) {
+    //         let arrayChunk = array.slice(i, i+size);
+    //         arrayChunks.push(arrayChunk);
+    //     }
+    //     return arrayChunks;
+    // }
 }
 
 
@@ -282,25 +311,27 @@ const _ = {
 //
 //
 //
-console.log(_.drop([1, 2, 3]));              // => [2, 3]
-console.log(_.drop([1, 2, 3], 2));   // => [3]
-console.log(_.drop([1, 2, 3], 5));   // => []
-console.log(_.drop([1, 2, 3], 0));   // => [1, 2, 3]
-
-
-
-let usersArray = [
-    { 'user': 'barney',  'active': true },
-    { 'user': 'fred',    'active': true },
-    { 'user': 'pebbles', 'active': false }
-];
-
-// console.log(usersArray[2].active);
-
-console.log(_.dropWhile(usersArray, function(o) { return o.active; })); // [ { user: 'pebbles', active: true } ]
-console.log(_.dropWhile(usersArray, function(o) { return o.user != 'pebbles'; })); // [ { user: 'pebbles', active: false } ]
-console.log(_.dropWhile(usersArray, function(o) { return o.user != 'fred'; })); // [ { user: 'fred', active: true }, { user: 'pebbles', active: false } ]
-
+// console.log(_.drop([1, 2, 3]));         // => [2, 3]
+// console.log(_.drop([1, 2, 3], 2));   // => [3]
+// console.log(_.drop([1, 2, 3], 5));   // => []
+// console.log(_.drop([1, 2, 3], 0));   // => [1, 2, 3]
+//
+//
+//
+// let usersArray = [
+//     { 'user': 'barney',  'active': true },
+//     { 'user': 'fred',    'active': true },
+//     { 'user': 'pebbles', 'active': false }
+// ];
+//
+// console.log(_.dropWhile(usersArray, function(o) { return o.active; })); // [ { user: 'pebbles', active: true } ]
+// console.log(_.dropWhile(usersArray, function(o) { return o.user != 'pebbles'; })); // [ { user: 'pebbles', active: false } ]
+// console.log(_.dropWhile(usersArray, function(o) { return o.user != 'fred'; })); // [ { user: 'fred', active: true }, { user: 'pebbles', active: false } ]
+//
+//
+//
+console.log(_.chunk(['a', 'b', 'c', 'd'], 2));  // => [['a', 'b'], ['c', 'd']]
+console.log(_.chunk(['a', 'b', 'c', 'd'], 3));  // => [['a', 'b', 'c'], ['d']]
 
 
 
