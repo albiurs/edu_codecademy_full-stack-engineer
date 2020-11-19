@@ -1,6 +1,7 @@
 // The .reduce() Method
 //
-// Another widely used iteration method is .reduce(). The .reduce() method returns a single value after iterating through the elements of an array, thereby reducing the array. Take a look at the example below:
+// Another widely used iteration method is .reduce(). The .reduce() method returns a single value after iterating
+// through the elements of an array, thereby reducing the array. Take a look at the example below:
 
 const numbers0 = [1, 2, 4, 10];
 

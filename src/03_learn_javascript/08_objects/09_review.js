@@ -1,6 +1,8 @@
 // Review
 
-// Way to go! You’re well on your way to understanding the mechanics of objects in JavaScript. By building your own objects, you will have a better understanding of how JavaScript built-in objects work as well. You can also start imagining organizing your code into objects and modeling real world things in code.
+// Way to go! You’re well on your way to understanding the mechanics of objects in JavaScript. By building your own
+// objects, you will have a better understanding of how JavaScript built-in objects work as well. You can also start
+// imagining organizing your code into objects and modeling real world things in code.
 
 // Let’s review what we learned in this lesson:
 

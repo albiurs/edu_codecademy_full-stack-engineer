@@ -1,6 +1,8 @@
 // Review
 //
-// Awesome job on clearing the iterators lesson! You have learned a number of useful methods in this lesson as well as how to use the JavaScript documentation from the Mozilla Developer Network to discover and understand additional methods. Let’s review!
+// Awesome job on clearing the iterators lesson! You have learned a number of useful methods in this lesson as well as
+// how to use the JavaScript documentation from the Mozilla Developer Network to discover and understand additional
+// methods. Let’s review!
 //
 //     .forEach() is used to execute the same code on every element in an array but does not change the array and
 //     returns undefined.
