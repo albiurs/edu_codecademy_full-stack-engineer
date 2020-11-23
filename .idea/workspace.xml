@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name">
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/number/Number.prototype.toFixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/mystery-organism-starter.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/project_meal_maker/meal_maker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/09_advanced_objects/project_meal_maker/meal_maker__floatNumber.toFixed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Number.prototype.toFixed.js">
+  <component name="RunManager" selected="Node.js.main.js (1)">
     <configuration name="Number.prototype.toFixed.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/number/Number.prototype.toFixed.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/number">
       <method v="2" />
     </configuration>
@@ -99,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.Number.prototype.toFixed.js" />
         <item itemvalue="Node.js.main.js (1)" />
+        <item itemvalue="Node.js.Number.prototype.toFixed.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.create_property_dynamically.js" />
         <item itemvalue="Node.js.in-operator_-_check_if_key_is_in_object.js" />
@@ -152,7 +149,7 @@
       <workItem from="1605598464151" duration="18304000" />
       <workItem from="1605683518138" duration="15104000" />
       <workItem from="1605767609095" duration="10309000" />
-      <workItem from="1606115699958" duration="11166000" />
+      <workItem from="1606115699958" duration="12612000" />
     </task>
     <task id="LOCAL-00001" summary="updated repo name">
       <created>1604903009549</created>
@@ -205,22 +202,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="550" height="466" key="DebuggerActiveHint/0.23.1536.937@0.23.1536.937" timestamp="1605776076087" />
-    <state width="1515" height="302" key="GridCell.Tab.0.bottom" timestamp="1606130841022">
+    <state width="1515" height="302" key="GridCell.Tab.0.bottom" timestamp="1606153715484">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="302" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606130841022" />
-    <state width="1515" height="302" key="GridCell.Tab.0.center" timestamp="1606130841021">
+    <state width="1515" height="302" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606153715484" />
+    <state width="1515" height="302" key="GridCell.Tab.0.center" timestamp="1606153715483">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="302" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606130841021" />
-    <state width="1515" height="302" key="GridCell.Tab.0.left" timestamp="1606130841021">
+    <state width="1515" height="302" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606153715483" />
+    <state width="1515" height="302" key="GridCell.Tab.0.left" timestamp="1606153715483">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="302" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606130841021" />
-    <state width="1515" height="302" key="GridCell.Tab.0.right" timestamp="1606130841022">
+    <state width="1515" height="302" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606153715483" />
+    <state width="1515" height="302" key="GridCell.Tab.0.right" timestamp="1606153715483">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="302" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606130841022" />
+    <state width="1515" height="302" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606153715483" />
     <state width="1515" height="337" key="GridCell.Tab.1.bottom" timestamp="1606129990587">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
@@ -298,12 +295,6 @@
           <url>file://$PROJECT_DIR$/src/03_learn_javascript/14_project_credit_card_checker/main.js</url>
           <line>106</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/main.js</url>
-          <line>75</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

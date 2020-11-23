@@ -80,6 +80,17 @@ const pAequorFactory = (specimenNum, dna) => {
             let identicalBasesRatio = identicalBases / 15;
             let identicalBasePercentage = (identicalBasesRatio * 100).toFixed(2);
             console.log('Identical DNA percentage of the two objects: ' + identicalBasePercentage + '%');
+        },
+
+        willLikelySurvive() {
+            let counter = 0;
+            dna.forEach(el => {
+                if(el === 'C' || el === 'G') counter++;
+            });
+            let cgRatio = counter / 15;
+            // console.log('C/D counter = ' + counter);
+            // console.log('C/G ratio = ' + cgRatio);
+            return cgRatio >= .6;
         }
     }
 }
@@ -94,6 +105,8 @@ let pAequorTwo = pAequorFactory(2, mockUpStrand());
 console.log(pAequorTwo);
 
 pAequor.compareDNA(pAequorTwo);
+
+console.log(pAequor.willLikelySurvive());
 
 
 
