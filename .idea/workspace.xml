@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name">
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/02_youtube_get_up_and_running/01_get_up_and_running.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/03_github_lab/02_github_lab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/01_Introduction-_Learn_Git_Part_I.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/04_Markdown Cheatsheet · adam-p:markdown-here Wiki.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/04_markdown-cheatsheet-online.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/SWTM-2088_Atlassian-Git-Cheatsheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/git-cheat-sheet-education.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/github-git-cheat-sheet.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +155,7 @@
       <workItem from="1605683518138" duration="15104000" />
       <workItem from="1605767609095" duration="10309000" />
       <workItem from="1606115699958" duration="13244000" />
-      <workItem from="1606202859211" duration="3652000" />
+      <workItem from="1606202859211" duration="4614000" />
     </task>
     <task id="LOCAL-00001" summary="updated repo name">
       <created>1604903009549</created>
