@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name">
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/02_youtube_get_up_and_running/01_get_up_and_running.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_git_github/03_github_lab/02_github_lab.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +64,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/11_iterators" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types/data_types" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/08_objects" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/11_iterators" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/string" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/04_git_github/github_lab" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/11_iterators" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.main.js (1)">
@@ -150,7 +151,7 @@
       <workItem from="1605683518138" duration="15104000" />
       <workItem from="1605767609095" duration="10309000" />
       <workItem from="1606115699958" duration="13244000" />
-      <workItem from="1606202859211" duration="1968000" />
+      <workItem from="1606202859211" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="updated repo name">
       <created>1604903009549</created>
@@ -203,22 +204,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="550" height="466" key="DebuggerActiveHint/0.23.1536.937@0.23.1536.937" timestamp="1605776076087" />
-    <state width="1515" height="380" key="GridCell.Tab.0.bottom" timestamp="1606207637747">
+    <state width="1515" height="380" key="GridCell.Tab.0.bottom" timestamp="1606208494060">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606207637747" />
-    <state width="1515" height="380" key="GridCell.Tab.0.center" timestamp="1606207637746">
+    <state width="1515" height="380" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606208494060" />
+    <state width="1515" height="380" key="GridCell.Tab.0.center" timestamp="1606208494059">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606207637746" />
-    <state width="1515" height="380" key="GridCell.Tab.0.left" timestamp="1606207637745">
+    <state width="1515" height="380" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606208494059" />
+    <state width="1515" height="380" key="GridCell.Tab.0.left" timestamp="1606208494059">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606207637745" />
-    <state width="1515" height="380" key="GridCell.Tab.0.right" timestamp="1606207637746">
+    <state width="1515" height="380" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606208494059" />
+    <state width="1515" height="380" key="GridCell.Tab.0.right" timestamp="1606208494060">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606207637746" />
+    <state width="1515" height="380" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606208494060" />
     <state width="1515" height="337" key="GridCell.Tab.1.bottom" timestamp="1606159919590">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
