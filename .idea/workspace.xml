@@ -19,7 +19,96 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name" />
+    <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/01_introduction_to_html/01_introduction_to_html.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/01_introduction_to_html/01_introduction_to_html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/02_html_document_standards/01_html_document_standards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/02_html_document_standards/01_html_document_standards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/02_html_document_standards/project_fashon_blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/02_html_document_standards/project_fashon_blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/03_html_tables/01_html_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/03_html_tables/01_html_tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/03_html_tables/02_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/03_html_tables/02_review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/03_html_tables/project_wine_festival_schedule/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/03_html_tables/project_wine_festival_schedule/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/03_html_tables/project_wine_festival_schedule/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/03_html_tables/project_wine_festival_schedule/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/03_html_tables/project_wine_festival_schedule/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/03_html_tables/project_wine_festival_schedule/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/03_html_tables/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/03_html_tables/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/01_how_a_form_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/01_how_a_form_works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/02_login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/02_login_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/03_number_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/03_number_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/04_range.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/04_range.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/05_checkbox_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/05_checkbox_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/06_radio_button.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/06_radio_button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/07_dropdown_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/07_dropdown_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/08_datalist_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/08_datalist_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/09_textarea_element.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/09_textarea_element.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/10_submit_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/10_submit_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/11_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/11_review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/05_html_forms/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/05_html_forms/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/01_requiring_an_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/01_requiring_an_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/02_set_minimum_and_maximum.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/02_set_minimum_and_maximum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/03_checking_text_and_pw_length.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/03_checking_text_and_pw_length.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/04_matching_a_pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/04_matching_a_pattern.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/05_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/05_review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/check.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/check.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/numCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/numCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/project_form-a-story/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/project_form-a-story/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/project_form-a-story/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/project_form-a-story/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/project_form-a-story/original.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/project_form-a-story/original.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/project_form-a-story/story.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/project_form-a-story/story.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/project_form-a-story/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/project_form-a-story/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/06_form_validation/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/06_form_validation/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/01_header_and_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/01_header_and_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/02_main_and_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/02_main_and_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/03_article_and_section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/03_article_and_section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/04_aside_element.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/04_aside_element.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/05_figure_and_figcaption.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/05_figure_and_figcaption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/06_audio_and_attributes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/06_audio_and_attributes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/07_video_and_embed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/07_video_and_embed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/08_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/08_review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/project_new-york-city-blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/project_new-york-city-blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/07_semantic_html/project_new-york-city-blog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/07_semantic_html/project_new-york-city-blog/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/cheat_sheet/01_Elements and Structure.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/cheat_sheet/01_Elements and Structure.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/cheat_sheet/02_Tables.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/cheat_sheet/02_Tables.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/cheat_sheet/03_Forms.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/cheat_sheet/03_Forms.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/cheat_sheet/04_semantic_html.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/cheat_sheet/04_semantic_html.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/cheat_sheet/HTTP Requests | Codecademy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/cheat_sheet/HTTP Requests | Codecademy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_learn_html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_html/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/01_inline_styles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/01_inline_styles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/02_style-tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/02_style-tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/03_css-file.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/03_css-file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/04_changing_selectors.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/04_changing_selectors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/05_nested_elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/05_nested_elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/06_Chaining and Specificity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/06_Chaining and Specificity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/07_multiple_selectors.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/07_multiple_selectors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/08_review.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/08_review.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/01_css_setup_and_selectors/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/01_css_setup_and_selectors/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project01_healthy_recipes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project01_healthy_recipes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project01_healthy_recipes/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project01_healthy_recipes/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project02_olivia_woodruff_portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project02_olivia_woodruff_portfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project02_olivia_woodruff_portfolio/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project02_olivia_woodruff_portfolio/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/dasmotos-arts_redline.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/dasmotos-arts_redline.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/finnish.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/finnish.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/frames.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/frames.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/hacksaw.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/hacksaw.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/pattern.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/images/pattern.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/assets/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/project03_dasmotos_arts_and_crafts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/review.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/review.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/style-library.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/style-library.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/02_visual_rules/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/02_visual_rules/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/cheat_sheet/01_Selectors and Visual Rules.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/cheat_sheet/01_Selectors and Visual Rules.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/cheat_sheet/02_The Box Model.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/cheat_sheet/02_The Box Model.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/cheat_sheet/03_Display and Positioning.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/cheat_sheet/03_Display and Positioning.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/cheat_sheet/04_Colors.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/cheat_sheet/04_Colors.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/cheat_sheet/05_Typography.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/cheat_sheet/05_Typography.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/cheat_sheet/06_Grid.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/cheat_sheet/06_Grid.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_webdesign_fundamentals/02_learn_css/cheat_sheet/07_CSS - Transitions.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/03_learn_css/cheat_sheet/07_CSS - Transitions.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_learn_javascript/16_fun_code_-_bounce_bubble_text/alphabet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_introduction_to_web_development/01_example_-_bounce_bubble_text/alphabet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_learn_javascript/16_fun_code_-_bounce_bubble_text/bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_introduction_to_web_development/01_example_-_bounce_bubble_text/bubbles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_learn_javascript/16_fun_code_-_bounce_bubble_text/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_introduction_to_web_development/01_example_-_bounce_bubble_text/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_learn_javascript/16_fun_code_-_bounce_bubble_text/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_introduction_to_web_development/01_example_-_bounce_bubble_text/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_learn_javascript/16_fun_code_-_bounce_bubble_text/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_introduction_to_web_development/01_example_-_bounce_bubble_text/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_learn_javascript/16_fun_code_-_bounce_bubble_text/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_introduction_to_web_development/01_example_-_bounce_bubble_text/test/test.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +117,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,6 +149,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/01_webdesign_fundamentals/01_introduction_to_web_development" />
+      <recent name="$PROJECT_DIR$/src/01_webdesign_fundamentals" />
+      <recent name="$PROJECT_DIR$/src/04_git_github/github_lab" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism" />
+      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/08_objects" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/03_conditional_statements" />
@@ -67,28 +163,21 @@
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/string" />
       <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/Math" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/04_git_github/github_lab" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript/11_iterators" />
-      <recent name="$PROJECT_DIR$/src/03_learn_javascript" />
-    </key>
   </component>
   <component name="RunManager" selected="Node.js.main.js (1)">
-    <configuration name="Number.prototype.toFixed.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/number/Number.prototype.toFixed.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/number">
+    <configuration name="Number.prototype.toFixed.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/02_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/number/Number.prototype.toFixed.js" working-dir="$PROJECT_DIR$/src/02_learn_javascript/01_introduction_to_javascript__data_types__string__Math__Date/number">
       <method v="2" />
     </configuration>
-    <configuration name="create_property_dynamically.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/08_objects/create_property_dynamically.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/08_objects">
+    <configuration name="create_property_dynamically.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/02_learn_javascript/08_objects/create_property_dynamically.js" working-dir="$PROJECT_DIR$/src/02_learn_javascript/08_objects">
       <method v="2" />
     </configuration>
-    <configuration name="in-operator_-_check_if_key_is_in_object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/08_objects/in-operator_-_check_if_key_is_in_object.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/08_objects">
+    <configuration name="in-operator_-_check_if_key_is_in_object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/02_learn_javascript/08_objects/in-operator_-_check_if_key_is_in_object.js" working-dir="$PROJECT_DIR$/src/02_learn_javascript/08_objects">
       <method v="2" />
     </configuration>
-    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism/main.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/15_project_mysterious_organism">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/02_learn_javascript/14_project_credit_card_checker/main.js" working-dir="$PROJECT_DIR$/src/02_learn_javascript/14_project_credit_card_checker">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/03_learn_javascript/14_project_credit_card_checker/main.js" working-dir="$PROJECT_DIR$/src/03_learn_javascript/14_project_credit_card_checker">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/02_learn_javascript/15_project_mysterious_organism/main.js" working-dir="$PROJECT_DIR$/src/02_learn_javascript/15_project_mysterious_organism">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -148,6 +237,7 @@
       <workItem from="1605767609095" duration="10309000" />
       <workItem from="1606115699958" duration="13244000" />
       <workItem from="1606202859211" duration="4614000" />
+      <workItem from="1606289921235" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="updated repo name">
       <created>1604903009549</created>
@@ -200,22 +290,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="550" height="466" key="DebuggerActiveHint/0.23.1536.937@0.23.1536.937" timestamp="1605776076087" />
-    <state width="1515" height="380" key="GridCell.Tab.0.bottom" timestamp="1606246511672">
+    <state width="1515" height="562" key="GridCell.Tab.0.bottom" timestamp="1606291849822">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
-    <state width="1515" height="380" key="GridCell.Tab.0.center" timestamp="1606246511672">
+    <state width="1515" height="562" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606291849822" />
+    <state width="1515" height="562" key="GridCell.Tab.0.center" timestamp="1606291849821">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
-    <state width="1515" height="380" key="GridCell.Tab.0.left" timestamp="1606246511672">
+    <state width="1515" height="562" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606291849821" />
+    <state width="1515" height="562" key="GridCell.Tab.0.left" timestamp="1606291849821">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
-    <state width="1515" height="380" key="GridCell.Tab.0.right" timestamp="1606246511672">
+    <state width="1515" height="562" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606291849821" />
+    <state width="1515" height="562" key="GridCell.Tab.0.right" timestamp="1606291849822">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
+    <state width="1515" height="562" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606291849822" />
     <state width="1515" height="337" key="GridCell.Tab.1.bottom" timestamp="1606159919590">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
@@ -285,12 +375,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/03_learn_javascript/12_code_challenges_intermediate_javascript/15_sub_length.js</url>
+          <url>file://$PROJECT_DIR$/src/02_learn_javascript/12_code_challenges_intermediate_javascript/15_sub_length.js</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/03_learn_javascript/14_project_credit_card_checker/main.js</url>
+          <url>file://$PROJECT_DIR$/src/02_learn_javascript/14_project_credit_card_checker/main.js</url>
           <line>106</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
