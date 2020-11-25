@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name">
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/01_Introduction-_Learn_Git_Part_I.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/04_Markdown Cheatsheet · adam-p:markdown-here Wiki.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/04_markdown-cheatsheet-online.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/SWTM-2088_Atlassian-Git-Cheatsheet.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/git-cheat-sheet-education.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04_git_github/cheat_sheet/github-git-cheat-sheet.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="290c66c9-5ea2-428c-a021-fb728fbb1797" name="Default Changelist" comment="updated repo name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,22 +200,22 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state width="550" height="466" key="DebuggerActiveHint/0.23.1536.937@0.23.1536.937" timestamp="1605776076087" />
-    <state width="1515" height="380" key="GridCell.Tab.0.bottom" timestamp="1606208494060">
+    <state width="1515" height="380" key="GridCell.Tab.0.bottom" timestamp="1606246511672">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606208494060" />
-    <state width="1515" height="380" key="GridCell.Tab.0.center" timestamp="1606208494059">
+    <state width="1515" height="380" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
+    <state width="1515" height="380" key="GridCell.Tab.0.center" timestamp="1606246511672">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606208494059" />
-    <state width="1515" height="380" key="GridCell.Tab.0.left" timestamp="1606208494059">
+    <state width="1515" height="380" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
+    <state width="1515" height="380" key="GridCell.Tab.0.left" timestamp="1606246511672">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606208494059" />
-    <state width="1515" height="380" key="GridCell.Tab.0.right" timestamp="1606208494060">
+    <state width="1515" height="380" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
+    <state width="1515" height="380" key="GridCell.Tab.0.right" timestamp="1606246511672">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="1515" height="380" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606208494060" />
+    <state width="1515" height="380" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1606246511672" />
     <state width="1515" height="337" key="GridCell.Tab.1.bottom" timestamp="1606159919590">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
