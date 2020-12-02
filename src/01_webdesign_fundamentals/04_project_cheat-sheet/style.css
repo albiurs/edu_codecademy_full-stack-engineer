@@ -1,0 +1,29 @@
+body {
+    font-family: Lucida Console, Courier, monospace;
+    background: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+table {
+    border: 2px solid darkorchid;
+    width: 850px;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: plum;
+}
+
+td {
+    padding: 5px 10px;
+    min-width: 180px;
+    border-top: 1px solid darkorchid;
+}
