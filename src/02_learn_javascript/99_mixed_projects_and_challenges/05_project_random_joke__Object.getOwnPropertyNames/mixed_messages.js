@@ -18,7 +18,7 @@
 //     Command line
 
 
-const messages = {
+const jokes = {
     jokesForKids: [
         "Why did the kid throw his clock out the window? - Because he wanted to see time fly!",
         "\n" + "Knock, knock.\n" + "\n" + "Who’s there?\n" + "\n" + "Scold.\n" + "\n" + "Scold who?\n" + "\n" + "Scold outside, let me in!\n",
@@ -39,3 +39,15 @@ const messages = {
         "Chuck Norris breathes air … five times a day."
     ]
 }
+
+const jokeNames = Object.getOwnPropertyNames(jokes);
+
+const getRandomJoke = () => {
+    let randJokeCat = jokeNames[Math.floor(Math.random() * jokeNames.length)];
+    let randCatLength = Math.floor(Math.random() * jokes[randJokeCat].length);
+    return jokes[randJokeCat][randCatLength];
+}
+
+console.log((getRandomJoke()));
+
+
