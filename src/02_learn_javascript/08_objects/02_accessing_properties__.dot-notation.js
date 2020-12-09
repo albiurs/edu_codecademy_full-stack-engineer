@@ -8,7 +8,7 @@
 
 // With property dot notation, we write the object’s name, followed by the dot operator and then the property name (key):
 
-let spaceship = {
+let spaceship0 = {
   homePlanet: 'Earth',
   color: 'silver'
 };
@@ -24,7 +24,7 @@ spaceship0.favoriteIcecream; // Returns undefined
 
 
 
-let spaceship = {
+let spaceship1 = {
   homePlanet: 'Earth',
   color: 'silver',
   'Fuel Type': 'Turbo Fuel',
@@ -33,7 +33,7 @@ let spaceship = {
 };
 
 // Write your code below
-let spaceship = {
+let spaceship2 = {
   homePlanet: 'Earth',
   color: 'silver',
   'Fuel Type': 'Turbo Fuel',
@@ -42,5 +42,8 @@ let spaceship = {
 };
 
 // Write your code below
-let crewCount = spaceship0.numCrew;
+let crewCount = spaceship0.homePlanet;
 let planetArray = spaceship0.flightPath;
+
+console.log(crewCount);
+console.log(spaceship0["homePlanet"]);
