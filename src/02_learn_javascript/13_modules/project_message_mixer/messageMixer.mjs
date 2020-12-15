@@ -78,8 +78,27 @@ const MessageMixer = {
     }
 };
 
+
+// constants used only to export with named exports
+const countCharacter = MessageMixer.countCharacter;
+const capitalizeFirstCharacterOfWords = MessageMixer.capitalizeFirstCharacterOfWords;
+const reverseWord = MessageMixer.reverseWord;
+const reverseAllWords = MessageMixer.reverseAllWords;
+const replaceFirstOccurence = MessageMixer.replaceFirstOccurence;
+const replaceAllOccurrences = MessageMixer.replaceAllOccurrences;
+const encode = MessageMixer.encode;
+const palindrome = MessageMixer.palindrome;
+const pigLatin = MessageMixer.pigLatin;
+
+
+/*
+Exports
+ */
 // module.export
 // module.exports = MessageMixer;
 
-// epor
+// export default
 export default MessageMixer;
+
+// named exports
+// export {countCharacter, capitalizeFirstCharacterOfWords, reverseWord, reverseAllWords, replaceFirstOccurence, replaceAllOccurrences, encode, palindrome, pigLatin};
