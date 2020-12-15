@@ -34,13 +34,13 @@ let retreatMessage = 'We no longer wish to conquer your planet. It is full of do
 // Write your code below
 const alienShip3 = {
     retreat() {
-      console.log(retreatMessage);
+        console.log(retreatMessage);
     },
-  
+
     takeOff: function () {
-      console.log('Spim... Borp... Glix... Blastoff!');
+        console.log('Spim... Borp... Glix... Blastoff!');
     }
-  }
-  
-  alienShip3.retreat();
-  alienShip3.takeOff();
+}
+
+alienShip3.retreat();
+alienShip3.takeOff();
