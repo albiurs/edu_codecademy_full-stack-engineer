@@ -1,10 +1,11 @@
 // The .map() Method
 //
-// The second iterator we’re going to cover is .map(). When .map() is called on an array, it takes an argument of a callback function and returns a new array! Take a look at an example of calling .map():
+// The second iterator we’re going to cover is .map(). When .map() is called on an array, it takes an argument of a
+// callback function and returns a new array! Take a look at an example of calling .map():
 
 const numbers0 = [1, 2, 3, 4, 5];
 
-const bigNumbers0 = numbers.map(number => {
+const bigNumbers0 = numbers0.map(number => {
     return number * 10;
 });
 
