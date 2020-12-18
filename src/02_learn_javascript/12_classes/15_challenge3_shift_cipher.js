@@ -50,6 +50,7 @@ console.log(cipher.encrypt('I love to code!')); // returns 'K NQXG VQ EQFG!'
 // cipher.decrypt('K <3 OA RWRRA'); // returns 'i <3 my puppy'
 
 console.log("HELLO".charCodeAt(0));
+//
 
 
 
