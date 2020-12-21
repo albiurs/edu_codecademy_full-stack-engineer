@@ -57,14 +57,13 @@ class ShiftCipher {
     cryptomator(str = '') {
         let strArr = str.split("");
         let newStrArr = [];
+        let tmpShiftNumber = null;
+        this.encryptFlag ? tmpShiftNumber = this.shiftNumber : tmpShiftNumber = -this.shiftNumber;
 
         for(let i=0; i<strArr.length; i++) {
             let char = str[i];
             let unicodeChar = char.charCodeAt(0);
-            let tmpShiftNumber = this.shiftNumber;
-            if(this.encryptFlag === false) {
-                tmpShiftNumber = -this.shiftNumber;
-            }
+
 
             if((/[a-zA-Z]/).test(char)) {
                 if(tmpShiftNumber >= 0) {

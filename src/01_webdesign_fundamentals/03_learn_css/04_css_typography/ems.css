@@ -1,0 +1,19 @@
+/*Word Spacing*/
+
+/*You can also increase the spacing between words in a body of text, technically known as word spacing.*/
+
+/*To do so, you can use the word-spacing property:*/
+
+h1 {
+    word-spacing: 0.3em;
+}
+
+/*Note that it’s good to use em values
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-size#Ems
+in this case because em is dynamic — for word spacing, it sets the spacing based on the size of the font.
+In the example above, the word spacing is set to 0.3em.
+The default amount of space between words is usually 0.25em and can be set with the value "normal".
+If you provide a value for word-spacing that’s not normal, then the value you provide is added to the default spacing.
+Therefore, since the word-spacing is set to 0.3em, your <h1> elements get a total of 0.55em word spacing when rendered.*/
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         It’s not common to increase the spacing between words, but it may help enhance the readability of bolded or enlarged text.
