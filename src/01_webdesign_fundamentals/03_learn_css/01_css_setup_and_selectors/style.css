@@ -32,17 +32,23 @@ h5 {
 }
 
 /* chaining selectors */
+/* any h2 elements with the class = destination */
+/* <h2 class="destination">affected text</h2> */
 h2.destination {
     font-family: cursive;
 }
 
 /* nested elements: (.desctiption class with a nested h5-tag inside)
   & also specific definition of h5 element above */
+/*<div class="description">*/
+/*    <h5>affected text</h5>*/
+/*</div>*/
 .description h5 {
     color: teal;
 }
 
 /* multiple selectors */
+/* any h5 and any p tags are affected */
 h5, p {
     font-family: Georgia;
 }
