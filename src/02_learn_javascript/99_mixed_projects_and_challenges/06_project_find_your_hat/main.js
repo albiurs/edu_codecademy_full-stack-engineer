@@ -23,86 +23,49 @@
 // Watch this animated gif to get a sense of what you’ll be building: find-your-hat-demo.gif
 
 
+const PlayingField = require('./PlayingField');
 const prompt = require('prompt-sync')({sigint: true});  // console prompt for user input
-
-const hat = '^';
-const hole = 'O';
-const fieldCharacter = '░';
-const pathCharacter = '*';
 
 
 /**
- * PlayingField {}
- * Playing Field which must be initiated by an array of characters declared above.
+ * Class User
+ * ----------
+ * Defines the user's current position (vertical / horizontal) on the playing field and the required functions to
+ * manipulate the position.
  *
  * Functions:
- * generateField()
- * print()
- * updateField()
+ * move()
+ * getCurrentPos()
  */
-class PlayingField {
-    constructor(field = []) {
-        this.field = field;
-    }
-
-    static generateField(height, width, percentageOfHoles) {
-
-        let fieldArray = [];
-
-        for(let i=0; i<height; i++) {
-            fieldArray[i] = [];
-            for(let k=0; k<width; k++) {
-                if(Math.floor(Math.random() * 100) <= percentageOfHoles) {
-                    fieldArray[i][k] = hole;
-                } else {
-                    fieldArray[i][k] = fieldCharacter;
-                }
-            }
-        }
-
-        fieldArray[0][0] = pathCharacter;
-        do {
-            fieldArray[Math.floor(Math.random() * height)][Math.floor(Math.random() * width)] = hat;
-        } while (fieldArray[0][0] === hat);
-
-        return fieldArray;
-    }
-
-    print() {
-        for(let i=0; i<this.field.length; i++) {
-            console.log(this.field[i].join(''));
-        }
-    }
-
-    updateField(vert, hor, char) {
-        this.field[vert][hor] = char;
-    }
-}
-
-
 class User {
+
     constructor() {
         this.currentPos = {
-            vert: 0,
-            hor: 0
+            vert: 0,    // vertical position in 2D array
+            hor: 0      // horizontal position in 2D array
         }
-        this.direction = '';
+        this.direction = '';    // direction to move
     }
 
+    /**
+     * move()
+     * Handles the user's inputs to move the position on the playing field.
+     * User console inputs are handled by the 'prompt-sync' module.
+     */
     move() {
         this.direction = prompt('Which way (u/d/l/r)? ');
 
         switch (this.direction) {
-            case 'u':
+            case 'u':   // up
                 this.currentPos.vert -= 1;
                 break;
-            case 'd':
+            case 'd':   // down
                 this.currentPos.vert += 1;
                 break;
-            case 'l':
+            case 'l':   // left
                 this.currentPos.hor -= 1;
                 break;
-            case 'r':
+            case 'r':   // right
                 this.currentPos.hor += 1;
                 break;
             default:
@@ -111,6 +74,10 @@ class User {
         }
     }
 
+    /**
+     * getCurrentPos()
+     * @returns {*|{vert: number, hor: number}}    object with current vert/hor position on the playing field.
+     */
     getCurrentPos() {
         return this.currentPos;
     }
@@ -129,21 +96,21 @@ const playGame = () => {
         // if currentPos is out of the array
         if(
             user.getCurrentPos().vert < 0 ||
-            user.getCurrentPos().vert > playingField.field.length - 1 ||
+            user.getCurrentPos().vert > playingField.playingField.length - 1 ||
             user.getCurrentPos().hor < 0 ||
-            user.getCurrentPos().hor > playingField.field[0].length - 1
+            user.getCurrentPos().hor > playingField.playingField[0].length - 1
         ) {
             console.log("Out of bounds, you lost the game!");
             break;
         } else {
-            if(playingField.field[user.getCurrentPos().vert][user.getCurrentPos().hor] === hole) {
+            if(playingField.playingField[user.getCurrentPos().vert][user.getCurrentPos().hor] === PlayingField.hole) {
                 console.log("You fell in a hole - you lost the game!");
                 break;
-            } else if(playingField.field[user.getCurrentPos().vert][user.getCurrentPos().hor] === hat) {
+            } else if(playingField.playingField[user.getCurrentPos().vert][user.getCurrentPos().hor] === PlayingField.hat) {
                 console.log("You got the hat! :-)");
                 won = true;
             }
-            playingField.updateField(user.getCurrentPos().vert, user.getCurrentPos().hor, pathCharacter);
+            playingField.updateField(user.getCurrentPos().vert, user.getCurrentPos().hor, PlayingField.pathCharacter);
         }
     }
 }
