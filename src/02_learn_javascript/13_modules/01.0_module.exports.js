@@ -1,6 +1,8 @@
 // module.exports
 //
-// We can get started with modules by defining a module in one file and making the module available for use in another file with Node.js module.exports syntax. Every JavaScript file run in Node has a local module object with an exports property used to define what should be exported from the file.
+// We can get started with modules by defining a module in one file and making the module available for use in another
+// file with Node.js module.exports syntax. Every JavaScript file run in Node has a local module object with an exports
+// property used to define what should be exported from the file.
 //
 // Below is an example of how to define a module and how to export it using the statement module.exports.
 //

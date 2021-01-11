@@ -1,6 +1,7 @@
 // module.exports II
 //
-// We can also wrap any collection of data and functions in an object, and export the object using module.exports. In menu.js, we could write:
+// We can also wrap any collection of data and functions in an object, and export the object using module.exports.
+// In menu.js, we could write:
 
 // module.exports = {
 //     specialty: "Roasted Beet Burger with Mint Sauce",
