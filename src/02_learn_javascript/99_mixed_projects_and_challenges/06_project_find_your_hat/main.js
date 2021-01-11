@@ -1,4 +1,5 @@
 // Find Your Hat
+// -------------
 // Overview
 //
 // This project is slightly different than others you have encountered thus far on Codecademy. Instead of a step-by-step
@@ -23,74 +24,22 @@
 // Watch this animated gif to get a sense of what you’ll be building: find-your-hat-demo.gif
 
 
+// == fields ==
 const PlayingField = require('./PlayingField');
-const prompt = require('prompt-sync')({sigint: true});  // console prompt for user input
+const User = require('./User');
 
 
 /**
- * Class User
- * ----------
- * Defines the user's current position (vertical / horizontal) on the playing field and the required functions to
- * manipulate the position.
- *
- * Functions:
- * move()
- * getCurrentPos()
+ * playGame()
+ * Triggers the start of the Game and handles the game flow.
  */
-class User {
-
-    constructor() {
-        this.currentPos = {
-            vert: 0,    // vertical position in 2D array
-            hor: 0      // horizontal position in 2D array
-        }
-        this.direction = '';    // direction to move
-    }
-
-    /**
-     * move()
-     * Handles the user's inputs to move the position on the playing field.
-     * User console inputs are handled by the 'prompt-sync' module.
-     */
-    move() {
-        this.direction = prompt('Which way (u/d/l/r)? ');
-
-        switch (this.direction) {
-            case 'u':   // up
-                this.currentPos.vert -= 1;
-                break;
-            case 'd':   // down
-                this.currentPos.vert += 1;
-                break;
-            case 'l':   // left
-                this.currentPos.hor -= 1;
-                break;
-            case 'r':   // right
-                this.currentPos.hor += 1;
-                break;
-            default:
-                console.log('Wrong input! Try again...');
-                break;
-        }
-    }
-
-    /**
-     * getCurrentPos()
-     * @returns {*|{vert: number, hor: number}}    object with current vert/hor position on the playing field.
-     */
-    getCurrentPos() {
-        return this.currentPos;
-    }
-}
-
-
 const playGame = () => {
+
     let won = false;
 
+    // repeated input asked until the game is won or lost (break).
     while(!won) {
         playingField.print();
-        // console.log(user.getCurrentPos());
-        // console.log(myField.field[user.getCurrentPos().vert][user.getCurrentPos().hor]);
         user.move();
 
         // if currentPos is out of the array
@@ -103,14 +52,19 @@ const playGame = () => {
             console.log("Out of bounds, you lost the game!");
             break;
         } else {
+            // if the user falls in a hole
             if(playingField.playingField[user.getCurrentPos().vert][user.getCurrentPos().hor] === PlayingField.hole) {
                 console.log("You fell in a hole - you lost the game!");
                 break;
-            } else if(playingField.playingField[user.getCurrentPos().vert][user.getCurrentPos().hor] === PlayingField.hat) {
+            }
+                // if the user wins the game
+                else if(playingField.playingField[user.getCurrentPos().vert][user.getCurrentPos().hor] === PlayingField.hat) {
                 console.log("You got the hat! :-)");
                 won = true;
+            } else {
+                // update the playField with the pathCharacter on the current user position.
+                playingField.updateField(user.getCurrentPos().vert, user.getCurrentPos().hor, PlayingField.pathCharacter);
             }
-            playingField.updateField(user.getCurrentPos().vert, user.getCurrentPos().hor, PlayingField.pathCharacter);
         }
     }
 }
@@ -121,12 +75,6 @@ const playGame = () => {
 //     ['░', '^', '░'],
 // ]);
 
-const playingField = new PlayingField(PlayingField.generateField(5, 10, 30));
-
-const user = new User();
-
-
-
 // console.log(myField.field[0][0]);
 // console.log(myField.field[1][1]);
 // console.log(myField.field[1][2]);
@@ -135,6 +83,9 @@ const user = new User();
 // console.log(user.getCurrentPos().vert);
 // console.log(user.getCurrentPos().hor);
 // console.log(user.direction);
+
+const playingField = new PlayingField(PlayingField.generateField(5, 10, 30));
+const user = new User();
 
 playGame();
 
