@@ -1,5 +1,5 @@
 // == requires ==
-const FieldCharModel = require('./FieldCharModel');
+const FieldCharModel = require('../model/FieldCharModel');
 
 
 /**

@@ -1,8 +1,8 @@
 // == requires ==
-const FieldCharModel = require('./FieldCharModel');
+const FieldCharModel = require('../model/FieldCharModel');
 
 /**
- * Class PlayingField
+ * Class PlayingFieldController
  * ------------------
  * Playing Field which must be initiated by an array of characters declared above.
  *
@@ -11,7 +11,7 @@ const FieldCharModel = require('./FieldCharModel');
  * print()
  * updateField()
  */
-class PlayingField {
+class PlayingFieldController {
 
     /**
      * constructor ()
@@ -23,12 +23,12 @@ class PlayingField {
 
     /**
      * generateField()
-     * Generates and returns a random 2D-PlayingField array.
+     * Generates and returns a random 2D-PlayingFieldController array.
      *
      * @param height    field height
      * @param width     field length
      * @param percentageOfHoles     % of holes relative to the amount of fields.
-     * @returns {[]}    random 2D-PlayingField array
+     * @returns {[]}    random 2D-PlayingFieldController array
      */
     static generateField(height, width, percentageOfHoles) {
 
@@ -55,7 +55,7 @@ class PlayingField {
 
     /**
      * print()
-     * Prints the PlayingField
+     * Prints the PlayingFieldController
      */
     print() {
         for(let i=0; i<this.playingField.length; i++) {
@@ -68,4 +68,4 @@ class PlayingField {
     }
 }
 
-module.exports = PlayingField;
+module.exports = PlayingFieldController;
