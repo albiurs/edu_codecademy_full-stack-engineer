@@ -1,3 +1,6 @@
+// == requires ==
+const FieldCharModel = require('./FieldCharModel');
+
 /**
  * Class PlayingField
  * ------------------
@@ -10,12 +13,10 @@
  */
 class PlayingField {
 
-    // == static fields ==
-    static hat = '^';
-    static hole = 'O';
-    static fieldCharacter = '░';
-    static pathCharacter = '*';
-
+    /**
+     * constructor ()
+     * @param field     2D playing field array
+     */
     constructor(field = []) {
         this.playingField = field;
     }
@@ -37,17 +38,17 @@ class PlayingField {
             fieldArray[i] = [];
             for(let k=0; k<width; k++) {
                 if(Math.floor(Math.random() * 100) <= percentageOfHoles) {
-                    fieldArray[i][k] = this.hole;
+                    fieldArray[i][k] = FieldCharModel.hole;
                 } else {
-                    fieldArray[i][k] = this.fieldCharacter;
+                    fieldArray[i][k] = FieldCharModel.fieldCharacter;
                 }
             }
         }
 
-        fieldArray[0][0] = this.pathCharacter;
+        fieldArray[0][0] = FieldCharModel.pathCharacter;
         do {
-            fieldArray[Math.floor(Math.random() * height)][Math.floor(Math.random() * width)] = this.hat;
-        } while (fieldArray[0][0] === this.hat);
+            fieldArray[Math.floor(Math.random() * height)][Math.floor(Math.random() * width)] = FieldCharModel.hat;
+        } while (fieldArray[0][0] === FieldCharModel.hat);
 
         return fieldArray;
     }
