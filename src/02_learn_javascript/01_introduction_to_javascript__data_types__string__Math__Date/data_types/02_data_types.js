@@ -3,7 +3,7 @@
 // Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript,
 // there are seven fundamental data types:
 //
-//     Number: Any number, including numbers with decimals: 4, 8, 1516, 23.42.
+//     Number: Any Number, including numbers with decimals: 4, 8, 1516, 23.42.
 //     String: Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by
 //     single quotes: ' ... ' or double quotes " ... ". Though we prefer single quotes. Some people like to think of
 //     string as a fancy word for text.
@@ -30,7 +30,7 @@ console.log(40);
 // In the example above, we first printed a string. Our string isn’t just a single word; it includes both capital and
 // lowercase letters, spaces, and punctuation.
 //
-//     Next, we printed the number 40, notice we did not use quotes.
+//     Next, we printed the Number 40, notice we did not use quotes.
 
 
 console.log('JavaScript');

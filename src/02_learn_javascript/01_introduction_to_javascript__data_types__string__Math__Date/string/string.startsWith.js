@@ -1,6 +1,6 @@
 // Methods
 //
-// Remember that methods are actions we can perform. JavaScript provides a number of string methods.
+// Remember that methods are actions we can perform. JavaScript provides a Number of string methods.
 //
 // We call, or use, these methods by appending an instance with:
 //          a period (the dot operator)

@@ -19,7 +19,7 @@ if (Object.prototype.toString.call(_.drop(["hi", "bye"])) !== '[object Array]') 
   return;
 }
 
-assert.arrayEquals(TEST_NAME, 'Drops one element if no number is specified', '_.drop(["hi", "bye"])', _.drop(["hi", "bye"]), ["bye"]);
-assert.arrayEquals(TEST_NAME, 'Drops the specified number of elements from the beginning of an array', '_.drop(["hi", "okay", "yes", "bye"], 2)', _.drop(["hi", "okay", "yes", "bye"], 2), ["yes", "bye"]);
+assert.arrayEquals(TEST_NAME, 'Drops one element if no Number is specified', '_.drop(["hi", "bye"])', _.drop(["hi", "bye"]), ["bye"]);
+assert.arrayEquals(TEST_NAME, 'Drops the specified Number of elements from the beginning of an array', '_.drop(["hi", "okay", "yes", "bye"], 2)', _.drop(["hi", "okay", "yes", "bye"], 2), ["yes", "bye"]);
 
 assert.endTestBlock();

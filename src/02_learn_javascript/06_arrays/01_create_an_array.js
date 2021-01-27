@@ -1,7 +1,7 @@
 // Create an Array
 
 // One way we can create an array is to use an array literal. An array literal creates an array by wrapping items in square brackets []. Remember from the previous exercise, arrays can store any data type — we can have an array that holds all the same data types or an array that holds different data types.
-// Diagram outlining an array literal that has 3 separate elements, a comma separates each element (a string, a number, and a boolean) and the elements are wrapped with square brackets
+// Diagram outlining an array literal that has 3 separate elements, a comma separates each element (a string, a Number, and a boolean) and the elements are wrapped with square brackets
 
 // Let’s take a closer look at the syntax in the array example:
 

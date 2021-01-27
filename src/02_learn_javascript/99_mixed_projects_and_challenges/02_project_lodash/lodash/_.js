@@ -9,15 +9,15 @@ const _ = {
      * @param upper
      */
     // my _.clamp solution
-    // clamp(number, lower, upper) {
-    //     let arr = [number, lower, upper, ];
+    // clamp(Number, lower, upper) {
+    //     let arr = [Number, lower, upper, ];
     //
     //     // sort array
     //     let counter = 0;
     //
     //     while(counter < arr.length - 1) {
     //         if(arr[counter] > arr[counter + 1]) {
-    //             // swap number and lower
+    //             // swap Number and lower
     //             let tmp = arr[counter];
     //             arr[counter] = arr[counter + 1];
     //             arr[counter + 1] = tmp;
@@ -44,11 +44,11 @@ const _ = {
      * @returns {boolean}
      */
     // my _.inRange solution
-    // inRange(number, start, end = 0) {
+    // inRange(Number, start, end = 0) {
     //     if(start > end) {
     //         [start, end] = [end, start];
     //     }
-    //     return number >= start && number < end;
+    //     return Number >= start && Number < end;
     // },
 
     // CodeCademy's _.inRange solution
@@ -199,9 +199,9 @@ const _ = {
      * @returns {*}
      */
     // my solution
-    // drop(array, number = 1) {
+    // drop(array, Number = 1) {
     //     let droppedArray = array;
-    //     for(let i = 0; i<number; i++) {
+    //     for(let i = 0; i<Number; i++) {
     //         droppedArray.shift();
     //     }
     //     return droppedArray;

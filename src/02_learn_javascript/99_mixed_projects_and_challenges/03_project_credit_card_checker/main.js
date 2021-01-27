@@ -17,16 +17,16 @@
 // and functions.
 //
 // Look over the starter code. There are 15 arrays that each contain the digits of separate credit card numbers. They
-// all have prefixes to reflect their status, i.e. variables that start with valid contain a valid number, whereas
+// all have prefixes to reflect their status, i.e. variables that start with valid contain a valid Number, whereas
 // invalid do not, and mystery variables can be either. There is also a batch array that stores all of the provided
 // credit cards in a single array.
 // You’ll use these arrays later to check if your functions are working properly.
 //
 // Create a function, validateCred() that has a parameter of an array. The purpose of validateCred() is to return
-// true when an array contains digits of a valid credit card number and false when it is invalid. This function should
+// true when an array contains digits of a valid credit card Number and false when it is invalid. This function should
 // NOT mutate the values of the original array.
 //
-// To find out if a credit card number is valid or not, use the Luhn algorithm:
+// To find out if a credit card Number is valid or not, use the Luhn algorithm:
 // https://en.wikipedia.org/wiki/Luhn_algorithm#Description
 // Generally speaking, an algorithm is a
 // series of steps that solve a problem — the Luhn algorithm is a series of mathematical calculations used to validate
@@ -34,10 +34,10 @@
 // as the following steps:
 //
 //     Starting from the farthest digit to the right, AKA the check digit, iterate to the left.
-//     As you iterate to the left, every other digit is doubled (the check digit is not doubled). If the number is
+//     As you iterate to the left, every other digit is doubled (the check digit is not doubled). If the Number is
 //     greater than 9 after doubling, subtract 9 from its value.
-//     Sum up all the digits in the credit card number.
-//     If the sum modulo 10 is 0 (if the sum divided by 10 has a remainder of 0) then the number is valid, otherwise,
+//     Sum up all the digits in the credit card Number.
+//     If the sum modulo 10 is 0 (if the sum divided by 10 has a remainder of 0) then the Number is valid, otherwise,
 //     it’s invalid.
 //
 // Here’s a visual that outlines the steps:
@@ -74,7 +74,7 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 // Add your functions below:
 /**
  * validateCred()
- * Implements the Luhn algorithm to validate the credit card number:
+ * Implements the Luhn algorithm to validate the credit card Number:
  * https://en.wikipedia.org/wiki/Luhn_algorithm#Description
  * https://content.codecademy.com/PRO/independent-practice-projects/credit-card-checker/diagrams/cc%20validator%20diagram%201.svg
  * @param creditCardNumber
@@ -120,7 +120,7 @@ const idInvalidCardCompanies = invalidCards => {
                 } else if(!number[0].toString() in companyCodes) {
                     console.log('Company not found');
                 }
-                // prop === number[0] ? invalidCardCompanies.push('yyy') : 'Company not found';
+                // prop === Number[0] ? invalidCardCompanies.push('yyy') : 'Company not found';
             }
         }
     }

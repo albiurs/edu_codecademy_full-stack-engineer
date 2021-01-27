@@ -13,7 +13,7 @@ const lessThanTen = jumbledNums.findIndex(num => {
 });
 
 //     jumbledNums is an array that contains elements that are numbers.
-//     const lessThanTen = declares a new variable that stores the returned index number from invoking .findIndex().
+//     const lessThanTen = declares a new variable that stores the returned index Number from invoking .findIndex().
 //     The callback function is an arrow function has a single parameter, num. Each element in the jumbledNums array
 //     will be passed to this function as an argument.
 //     num < 10; is the condition that elements are checked against.
@@ -27,7 +27,7 @@ console.log(lessThanTen); // Output: 3 (= index in array)
 console.log(jumbledNums[3]);            // Output: 5 (= value of index 5 in array)
 console.log(jumbledNums[lessThanTen]);  // Output: 5 (= value of index 5 in array)
 
-// Great, the element in index 3 is the number 5. This makes sense since 5 is the first element that is less than 10.
+// Great, the element in index 3 is the Number 5. This makes sense since 5 is the first element that is less than 10.
 //
 // If there isn’t a single element in the array that satisfies the condition in the callback, then .findIndex() will
 // return -1.

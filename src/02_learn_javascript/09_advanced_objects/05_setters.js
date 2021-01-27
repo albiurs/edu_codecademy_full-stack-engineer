@@ -8,7 +8,7 @@ const person = {
         if (typeof newAge === 'number') {
             this._age = newAge;
         } else {
-            console.log('You must assign a number to age');
+            console.log('You must assign a Number to age');
         }
     }
 };
@@ -23,7 +23,7 @@ const person = {
 
 person.age = 40;
 console.log(person._age); // Logs: 40
-person.age = '40'; // Logs: You must assign a number to age
+person.age = '40'; // Logs: You must assign a Number to age
 
 // Setter methods like age do not need to be called with a set of parentheses. Syntactically, it looks like we’re reassigning the value of a property.
 
@@ -50,14 +50,14 @@ const robot = {
         if (typeof num === 'number' && num >= 0) {
             this._numOfSensors = num;
         } else {
-            console.log('Pass in a number that is greater than or equal to 0');
+            console.log('Pass in a Number that is greater than or equal to 0');
         }
     },
     setNumOfSensors(num) {
         if (typeof num === 'number' && num >= 0) {
             this._numOfSensors = num;
         } else {
-            console.log('Pass in a number that is greater than or equal to 0');
+            console.log('Pass in a Number that is greater than or equal to 0');
         }
     }
 };

@@ -12,7 +12,7 @@ element.*/
 /*The first three values work the same as hsl. The fourth value (which we have not seen before) is the alpha. This last
 value is sometimes called the opacity.*/
 
-/*Alpha is a decimal number from zero to one. If alpha is zero, the color will be completely transparent. If alpha is
+/*Alpha is a decimal Number from zero to one. If alpha is zero, the color will be completely transparent. If alpha is
 one, the color will be opaque. The value for half transparent would be 0.5.*/
 
 /*You can think of the alpha value as, “the amount of the background to mix with the foreground”. When a color’s alpha

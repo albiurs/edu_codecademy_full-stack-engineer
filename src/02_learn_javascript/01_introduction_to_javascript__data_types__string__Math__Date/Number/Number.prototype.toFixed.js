@@ -1,7 +1,7 @@
 // Number.prototype.toFixed()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
 
-// The toFixed() method formats a number using fixed-point notation.
+// The toFixed() method formats a Number using fixed-point notation.
 
 function financial(x) {
     return Number.parseFloat(x).toFixed(2);

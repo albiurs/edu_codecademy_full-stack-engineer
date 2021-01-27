@@ -1,4 +1,4 @@
-// Write a function factorial() that takes a number as an argument and returns the factorial of the number.
+// Write a function factorial() that takes a Number as an argument and returns the factorial of the Number.
 //
 //     Example:
 //

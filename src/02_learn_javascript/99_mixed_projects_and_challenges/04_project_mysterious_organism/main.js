@@ -44,7 +44,7 @@ const mockUpStrand = () => {
 /**
  * pAequorFactory()
  * Since you need to create multiple objects, create a factory function pAequorFactory() that has two parameters:
- * The first parameter is number (no two organisms should have the same number).
+ * The first parameter is Number (no two organisms should have the same Number).
  * The second parameter is an array of 15 DNA bases.
  * pAequorFactor() should return an object that contains the properties specimenNum and dna that correspond to the
  * parameters provided.
@@ -70,7 +70,7 @@ const pAequorFactory = (specimenNum, dna) => {
          * @returns {*}
          */
         mutate() {
-            let randElementIndex = Math.floor(Math.random() * 15);    // random number from 0 to 14
+            let randElementIndex = Math.floor(Math.random() * 15);    // random Number from 0 to 14
             let originalBase = dna[randElementIndex];
             let mutatedBase = '';
             do {

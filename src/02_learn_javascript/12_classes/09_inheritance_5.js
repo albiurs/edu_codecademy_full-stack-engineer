@@ -43,7 +43,7 @@ class Cat extends Animal {
         }
     }
 
-// We decreased the number of lines required to create the Cat class by about half. Yes, it did require an extra class (Animal), making the reduction in the size of our Cat class seem moot. However, the benefits (time saved, readability, efficiency) of inheritance grow as the number and size of your subclasses increase.
+// We decreased the Number of lines required to create the Cat class by about half. Yes, it did require an extra class (Animal), making the reduction in the size of our Cat class seem moot. However, the benefits (time saved, readability, efficiency) of inheritance grow as the Number and size of your subclasses increase.
 //
 // One benefit is that when you need to change a method or property that multiple classes share, you can change the parent class, instead of each subclass.
 //

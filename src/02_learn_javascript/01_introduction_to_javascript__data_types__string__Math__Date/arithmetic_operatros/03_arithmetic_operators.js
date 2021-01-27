@@ -26,8 +26,8 @@ console.log(9 / 3); // Prints 3
 console.log(11 % 3); // Prints 2
 console.log(12 % 3); // Prints 0
 
-// The remainder operator, sometimes called modulo, returns the number that remains after the right-hand number divides
-// into the left-hand number as many times as it evenly can: 11 % 3 equals 2 because 3 fits into 11 three times, leaving
+// The remainder operator, sometimes called modulo, returns the Number that remains after the right-hand Number divides
+// into the left-hand Number as many times as it evenly can: 11 % 3 equals 2 because 3 fits into 11 three times, leaving
 // 2 as the remainder.
 
 

@@ -2,12 +2,12 @@ let target;
 
 const humanGuessInput = document.getElementById('human-guess');
 
-const roundNumberDisplay = document.getElementById('round-number');
+const roundNumberDisplay = document.getElementById('round-Number');
 
 const computerGuessDisplay = document.getElementById('computer-guess');
 const humanScoreDisplay = document.getElementById('human-score');
 const computerScoreDisplay = document.getElementById('computer-score');
-const targetNumberDisplay = document.getElementById('target-number');
+const targetNumberDisplay = document.getElementById('target-Number');
 const computerWinsDisplay = document.getElementById('computer-wins');
 
 const guessButton = document.getElementById('guess');
@@ -52,16 +52,16 @@ guessButton.addEventListener('click', () => {
 });
 
 nextRoundButton.addEventListener('click', () => {
-  // Increase the round number
+  // Increase the round Number
   advanceRound();
-  // Display the new round number
+  // Display the new round Number
   roundNumberDisplay.innerText = currentRoundNumber;
 
   // Set the correct disabled state for the buttons
   nextRoundButton.setAttribute('disabled', true);
   guessButton.removeAttribute('disabled');
 
-  // Reset the guess input box and the target number display:
+  // Reset the guess input box and the target Number display:
   targetNumberDisplay.innerText = '?';
   guessButton.innerText = 'Make a Guess';
   humanGuessInput.value = '';

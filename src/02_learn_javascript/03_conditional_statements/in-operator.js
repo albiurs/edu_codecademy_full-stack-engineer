@@ -25,7 +25,7 @@ let trees = ['redwood', 'bay', 'cedar', 'oak', 'maple']
 console.log(0 in trees);        // returns true
 console.log(3 in trees);        // returns true
 console.log(6 in trees);        // returns false
-console.log('bay' in trees);    // returns false (you must specify the index number, not the value at that index)
+console.log('bay' in trees);    // returns false (you must specify the index Number, not the value at that index)
 console.log('length' in trees); // returns true (length is an Array property)
 console.log(Symbol.iterator in trees); // returns true (arrays are iterable, works only in ES2015+)
 

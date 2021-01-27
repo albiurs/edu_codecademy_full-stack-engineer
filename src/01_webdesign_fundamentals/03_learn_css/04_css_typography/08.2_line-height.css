@@ -6,9 +6,9 @@ vertical spacing between lines of text can decrease, creating text that is diffi
 /*We can use the line-height property to set how tall we want the line containing our text to be, regardless of the
 height of the text. Line heights can take one of several values:*/
 
-/*    A unitless number, such as 1.2. This number is an absolute value that will compute the line height as a ratio of
+/*    A unitless Number, such as 1.2. This Number is an absolute value that will compute the line height as a ratio of
 the font size.*/
-/*    A number specified by unit, such as 12px. This number can be any valid CSS unit, such as pixels, percents, ems,
+/*    A Number specified by unit, such as 12px. This Number can be any valid CSS unit, such as pixels, percents, ems,
 or rems.*/
 
 /*Generally, the unitless ratio value is the preferred method, since it is responsive and based exclusively on the

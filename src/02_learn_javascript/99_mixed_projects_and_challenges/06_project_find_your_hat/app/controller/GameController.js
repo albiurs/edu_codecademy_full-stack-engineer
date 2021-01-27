@@ -29,6 +29,8 @@ class GameController {
 
         // repeated input asked until the game is won or lost (break).
         while(!won) {
+            // update console view
+            console.clear();            // clear Node.js console
             this.playingField.print();
             this.user.move();
 

@@ -1,4 +1,4 @@
-// You are a college student and you want to stream a movie over one of the campuses Wi-Fi networks. Based on the number of users, some networks won’t have the data to stream a movie.
+// You are a college student and you want to stream a movie over one of the campuses Wi-Fi networks. Based on the Number of users, some networks won’t have the data to stream a movie.
 //
 // Use the following Network class to track how much total data and how many users each network has:
 

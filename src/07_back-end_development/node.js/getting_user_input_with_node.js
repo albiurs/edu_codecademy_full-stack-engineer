@@ -85,8 +85,8 @@ const prompt = require('prompt-sync')({sigint: true});
 //
 // All user input will be read as a String, so in order to treat user input as numbers, you’ll need to convert the input:
 
-const num = prompt('Enter a number: ');
-console.log('Your number + 4 =');
+const num = prompt('Enter a Number: ');
+console.log('Your Number + 4 =');
 console.log(Number(num) + 4);
 
 
@@ -94,19 +94,19 @@ console.log(Number(num) + 4);
  * Making a basic app
  */
 
-// The code below creates a small number guessing application.
+// The code below creates a small Number guessing application.
 
 const prompt = require('prompt-sync')({sigint: true});
 
-// Random number from 1 - 10
+// Random Number from 1 - 10
 const numberToGuess = Math.floor(Math.random() * 10) + 1;
 // This variable is used to determine if the app should continue prompting the user for input
 let foundCorrectNumber = false;
 
 while (!foundCorrectNumber) {
     // Get user input
-    let guess = prompt('Guess a number from 1 to 10: ');
-    // Convert the string input to a number
+    let guess = prompt('Guess a Number from 1 to 10: ');
+    // Convert the string input to a Number
     guess = Number(guess);
 
     // Compare the guess to the secret answer and let the user know.

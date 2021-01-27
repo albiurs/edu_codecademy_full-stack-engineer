@@ -8,7 +8,7 @@ w = w + 1;
 
 console.log(w); // Output: 5
 //
-// In the example above, we created the variable w with the number 4 assigned to it. The following line, w = w + 1,
+// In the example above, we created the variable w with the Number 4 assigned to it. The following line, w = w + 1,
 // increases the value of w from 4 to 5.
 //
 // Another way we could have reassigned w after performing some mathematical operation on it is to use built-in
@@ -19,7 +19,7 @@ w += 1;
 
 console.log(w); // Output: 5
 
-// In the second example, we used the += assignment operator to reassign w. We’re performing the mathematical operation of the first operator + using the number to the right, then reassigning w to the computed value.
+// In the second example, we used the += assignment operator to reassign w. We’re performing the mathematical operation of the first operator + using the Number to the right, then reassigning w to the computed value.
 //
 // We also have access to other mathematical assignment operators: -=, *=, and /= which work in a similar fashion.
 

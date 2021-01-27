@@ -3,13 +3,13 @@
 /*The RGB color scheme is convenient because it’s very close to how computers represent colors internally. There’s
 another equally powerful system in CSS called the hue-saturation-lightness color scheme, abbreviated as HSL.*/
 
-/*The syntax for HSL is similar to the decimal form of RGB, though it differs in important ways. The first number
+/*The syntax for HSL is similar to the decimal form of RGB, though it differs in important ways. The first Number
 represents the degree of the hue, and can be between 0 and 360. The second and third numbers are percentages
 representing saturation and lightness respectively. Here is an example:*/
 
 /*color: hsl(120, 60%, 70%);*/
 
-/*Hue is the first number. It refers to an angle on a color wheel. Red is 0 degrees, Green is 120 degrees, Blue is
+/*Hue is the first Number. It refers to an angle on a color wheel. Red is 0 degrees, Green is 120 degrees, Blue is
 240 degrees, and then back to Red at 360. You can see an example of a color wheel below:
 ./color_wheel_4_background.svg
 */

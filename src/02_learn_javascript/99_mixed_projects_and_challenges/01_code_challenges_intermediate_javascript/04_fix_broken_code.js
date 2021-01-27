@@ -17,7 +17,7 @@ const smallestPowerOfTwo = arr => {
     for (let i = 0; i < arr.length; i++) {
         let number = arr[i];
 
-        // The 'inner' while loop - searches for smallest power of 2 greater than the given number
+        // The 'inner' while loop - searches for smallest power of 2 greater than the given Number
         let counter = 1;
         do {
             counter *= 2;

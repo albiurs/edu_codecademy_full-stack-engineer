@@ -2,7 +2,7 @@
 //
 // have 3 parameters: name, breed, and weight (in that order)
 // expect name and breed to be strings
-// expect weight to be a number
+// expect weight to be a Number
 // return an object
 // have each of those parameters as keys on the returned object returned with the values of the arguments that were passed in
 

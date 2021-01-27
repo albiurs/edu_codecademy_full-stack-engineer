@@ -10,7 +10,7 @@
 //     When calling a function that has parameters, we specify the values in the parentheses that follow the function name. The values that are passed to the function when it is called are called arguments. Arguments can be passed to the function as values or variables.
 //     JavaScript syntax for invoking a function with arguments as values
 //
-// In the function call above, the number 10 is passed as the width and 6 is passed as height. Notice that the order in which arguments are passed and assigned follows the order that the parameters are declared.
+// In the function call above, the Number 10 is passed as the width and 6 is passed as height. Notice that the order in which arguments are passed and assigned follows the order that the parameters are declared.
 //     JavaScript syntax for invoking a function with arguments as variables
 //
 // The variables rectWidth and rectHeight are initialized with the values for the height and width of a rectangle before being used in the function call.
