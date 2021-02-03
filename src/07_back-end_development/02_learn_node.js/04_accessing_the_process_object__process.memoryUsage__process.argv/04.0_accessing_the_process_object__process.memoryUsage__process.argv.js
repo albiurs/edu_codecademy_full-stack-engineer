@@ -15,7 +15,9 @@
 //      console.log('Testing! Testing! Does everything work?');
 // }
 
-// The process.memoryUsage() returns information on the CPU demands of the current process. It returns a property that
+// The
+process.memoryUsage();
+// returns information on the CPU demands of the current process. It returns a property that
 // looks similar to this:
 
 // { rss: 26247168,
@@ -34,10 +36,13 @@
 
 // $ node myProgram.js testing several features
 
-// console.log(process.argv[3]); // Prints 'several'
+console.log(process.argv[3]); // Prints 'several'
 
 // We’ve only covered a few of the properties of the process object
 // https://nodejs.org/api/process.html ,
 // so make sure to check out the documentation on the
 // process object to learn more about it and explore some of its other methods and properties.
+
+// Let’s get some practice using the process object!
+
 
