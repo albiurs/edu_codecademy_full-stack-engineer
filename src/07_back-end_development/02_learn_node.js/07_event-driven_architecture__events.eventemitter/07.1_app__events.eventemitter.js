@@ -5,7 +5,7 @@ let listenerCallback = (data) => {
     console.log('Celebrate ' + data);
 }
 
-// In app.js, we’ve required in the events core module and written a function listenerCallback which expects to be
+// In 03_app.js, we’ve required in the events core module and written a function listenerCallback which expects to be
 // passed data and will log a string to the console which incorporates that data. Now it’s time to create an event
 // emitter. Create a new variable, myEmitter and assign as its value a new instance of the event emitter class.
 let myEmitter = new events.EventEmitter();

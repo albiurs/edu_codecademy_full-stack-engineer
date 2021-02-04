@@ -1,4 +1,4 @@
-// We want the program in app.js to store the starting amount of memory used (heapUsed), perform an operation, and then
+// We want the program in 03_app.js to store the starting amount of memory used (heapUsed), perform an operation, and then
 // compare the final amount of memory used to the original amount. Right now, the initialMemory variable is assigned to
 // null. Change this line, so that initialMemory is instead assigned the value of the heapUsed property on the object
 // returned from invoking the process.memoryUsage() method.

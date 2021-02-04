@@ -39,9 +39,9 @@ module.exports = class Dog {
 
 // Above, in the dog.js file, we assign the Dog class as the value of module.exports. Each JavaScript file in the Node environment has a special JavaScript object called module.exports. It holds everything in that file, or module, that’s available to be required into a different file.
 
-// app.js
+// 03_app.js
 let Dog = require('./dog.js');
 const tadpole = new Dog('Tadpole');
 console.log(tadpole.praise());
 
-// In our app.js file we assign the variable Dog to the module.exports object of our dog.js file by invoking the require() function. Unlike when we require core modules which are required in with the name of the module as a string, local modules are required by passing in the path to the module. The require() function has some other quirks, like assuming file extensions if none are provided; this means we could have written let Dog = require('./dog'); in place of let Dog = require('./dog.js'); in the code above, and the require() function would have still correctly located and required in dog.js.
+// In our 03_app.js file we assign the variable Dog to the module.exports object of our dog.js file by invoking the require() function. Unlike when we require core modules which are required in with the name of the module as a string, local modules are required by passing in the path to the module. The require() function has some other quirks, like assuming file extensions if none are provided; this means we could have written let Dog = require('./dog'); in place of let Dog = require('./dog.js'); in the code above, and the require() function would have still correctly located and required in dog.js.
