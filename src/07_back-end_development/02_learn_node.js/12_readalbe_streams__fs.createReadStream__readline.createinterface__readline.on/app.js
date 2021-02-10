@@ -25,3 +25,19 @@ Remember that a 'line' event will be emitted after each line from the file is re
 Type "node app.js" in the terminal and press enter. If everything worked, each item from the shopping list should be printed to the terminal.
  */
 myInterface.on('line', printData);
+
+
+/*
+Output:
+
+Item: apples
+Item: pears
+Item: royal jelly
+Item: bread
+Item: milk
+Item: tofu
+Item: beans
+Item: flan
+Item: pork
+Item: tamarind
+ */

@@ -23,3 +23,19 @@ We’re nearly there! Let’s assign our transformData function to execute whene
 Let’s run the program in the terminal. Type node app.js in the terminal and press enter. If everything worked, you should be able to open the shoppingResults.txt file and see that it has the correct contents.
  */
 myInterface.on('line', transformData);
+
+
+/*
+Output to shoppingResults.txt:
+
+They were out of: apples
+They were out of: pears
+They were out of: royal jelly
+They were out of: bread
+They were out of: milk
+They were out of: tofu
+They were out of: beans
+They were out of: flan
+They were out of: pork
+They were out of: tamarind
+ */

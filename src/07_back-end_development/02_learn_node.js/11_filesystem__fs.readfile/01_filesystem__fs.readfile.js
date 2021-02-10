@@ -5,8 +5,8 @@
 // some applications from others is known as sandboxing. Sandboxing protects users from malicious programs and invasions
 // of privacy.
 //
-// In the back-end, however, less restricted interaction with the filesystem is essential. The Node "fs" core module is an
-// API for interacting with the file system. It was modeled after the POSIX (https://en.wikipedia.org/wiki/POSIX)
+// In the back-end, however, less restricted interaction with the filesystem is essential. The Node "fs" core module is
+// an API for interacting with the file system. It was modeled after the POSIX (https://en.wikipedia.org/wiki/POSIX)
 // standard for interacting with the filesystem.
 //
 // Each method available through the "fs" module has a synchronous version and an asynchronous version. One method
@@ -28,8 +28,8 @@ fs.readFile('./file.txt', 'utf-8', readDataCallback);
 //
 // - We required in the "fs" core module.
 // - We define an error-first callback function which expects an error "err" to be passed as the first argument and
-// "data" as the second. If the error is present, the function will print Something went wrong: ${err}, otherwise, it will print
-// Provided file contained: ${data}.
+//   "data" as the second. If the error is present, the function will print Something went wrong: ${err}, otherwise, it
+//   will print "Provided file contained: ${data}".
 // - We invoked the .readFile() method with three arguments:
 //      1. The first argument is a string that contains a path to the file file.txt.
 //      2. The second argument is a string specifying the file’s character encoding (usually ‘utf-8’ for text files).
